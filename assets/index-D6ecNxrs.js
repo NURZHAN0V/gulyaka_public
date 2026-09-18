@@ -1,0 +1,570 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/DatingView-DlZsBeje.js","assets/_plugin-vue_export-helper-C-PAySEq.js","assets/http-jrQmD9gX.js","assets/BaseButton-DQXdnPsK.js","assets/BaseButton-BBtfCcYx.css","assets/BaseModal-B0dvKH-B.js","assets/BaseModal-BAQUTHUy.css","assets/BaseInput-Cll_RHcL.js","assets/BaseInput-DQ2FEBlY.css","assets/labels-tldU6alU.js","assets/BaseBadge-C1RXLLso.js","assets/BaseBadge-hsjAxdM4.css","assets/BaseEmpty-8WBVp6wi.js","assets/BaseEmpty-DZBQJQQa.css","assets/BaseSpinner-DXwYGSnS.js","assets/BaseSpinner-BTw0LrXr.css","assets/BaseChip-BCoYvM9V.js","assets/BaseChip-D7gDCneT.css","assets/useDictionaries-BEeRY_Tq.js","assets/BaseSelect-ujFJfeh4.js","assets/BaseSelect-fVBagyFi.css","assets/DatingView-DV3YDJj5.css","assets/ChatsView-VpYxhaXZ.js","assets/format-ChmPVKcA.js","assets/ChatsView-D0svlwSF.css","assets/ChatThreadView-DBpZDlZV.js","assets/ReportDialog-By7sLjIa.js","assets/ReportDialog-CFOmbIUj.css","assets/ChatThreadView-DosrkToF.css","assets/SosView-JJ8TZkME.js","assets/SosView-CVxCBxgi.css","assets/NearbyView-CdNWMYdc.js","assets/api-CpwrcSbM.js","assets/NearbyView-CMWVpVLW.css","assets/ProfileView-w8MoDH9s.js","assets/ProfileView-k2BTQfe6.css","assets/MyDataView-73LT2cEd.js","assets/MyDataView-Ct4DF4Rj.css","assets/PetsView-C0Qjpt8v.js","assets/PetsView-BWiaK1U9.css","assets/PetEditView-BlbZgIjH.js","assets/PetEditView-Diiu2s_z.css","assets/PetView-Czh0vGQP.js","assets/PetView-DKLhs9Kp.css","assets/PrivacyView-DQInVhkp.js","assets/BaseSwitch-BJ0uzm5r.js","assets/BaseSwitch-Cb4LOG-U.css","assets/PrivacyView-DvggfR6Y.css","assets/NotificationsView-BE0cmft5.js","assets/NotificationsView-DhPFjTfs.css","assets/SecurityView-CXii9swi.js","assets/SecurityView-cRXeeqVG.css","assets/BlocksView-N1SGvh69.js","assets/BlocksView-Xq0ePaTH.css","assets/WalksView-C53UVfyB.js","assets/WalksView-DSMHg_CO.css","assets/WalkCreateView-DoIefc7K.js","assets/WalkCreateView-DEGhJtYA.css","assets/WalkView-Df47U_tE.js","assets/WalkView-CHq-hDXP.css","assets/SubscriptionView-BhhgdIno.js","assets/SubscriptionView-b-PRtuQD.css","assets/LegalDocView-AUh26JG2.js","assets/LegalDocView-BRef8WHg.css","assets/PublicProfileView-D1WmQdMG.js","assets/PublicProfileView-ZXQymneQ.css"])))=>i.map(i=>d[i]);
+import{$ as e,B as t,C as n,D as r,E as i,F as a,G as o,H as s,J as c,K as l,L as u,M as d,N as f,O as p,P as m,Q as h,R as ee,T as g,U as te,V as ne,W as _,X as re,Y as v,Z as y,_ as ie,a as b,at as ae,b as x,c as S,ct as oe,d as C,et as se,f as ce,g as w,h as T,i as E,it as le,j as ue,k as D,l as O,lt as k,n as de,nt as fe,o as pe,ot as me,q as A,r as j,rt as M,s as N,st as he,t as P,tt as ge,u as F,ut as _e,v as ve,w as ye,x as be,y as xe,z as Se}from"./_plugin-vue_export-helper-C-PAySEq.js";import{n as Ce,t as we,u as Te}from"./http-jrQmD9gX.js";(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var Ee=void 0,De=typeof window<`u`&&window.trustedTypes;if(De)try{Ee=De.createPolicy(`vue`,{createHTML:e=>e})}catch{}var Oe=Ee?e=>Ee.createHTML(e):e=>e,ke=`http://www.w3.org/2000/svg`,Ae=`http://www.w3.org/1998/Math/MathML`,I=typeof document<`u`?document:null,je=I&&I.createElement(`template`),Me={insert:(e,t,n)=>{t.insertBefore(e,n||null)},remove:e=>{let t=e.parentNode;t&&t.removeChild(e)},createElement:(e,t,n,r)=>{let i=t===`svg`?I.createElementNS(ke,e):t===`mathml`?I.createElementNS(Ae,e):n?I.createElement(e,{is:n}):I.createElement(e);return e===`select`&&r&&r.multiple!=null&&i.setAttribute(`multiple`,r.multiple),i},createText:e=>I.createTextNode(e),createComment:e=>I.createComment(e),setText:(e,t)=>{e.nodeValue=t},setElementText:(e,t)=>{e.textContent=t},parentNode:e=>e.parentNode,nextSibling:e=>e.nextSibling,querySelector:e=>I.querySelector(e),setScopeId(e,t){e.setAttribute(t,``)},insertStaticContent(e,t,n,r,i,a){let o=n?n.previousSibling:t.lastChild;if(i&&(i===a||i.nextSibling))for(;t.insertBefore(i.cloneNode(!0),n),i!==a&&(i=i.nextSibling););else{je.innerHTML=Oe(r===`svg`?`<svg>${e}</svg>`:r===`mathml`?`<math>${e}</math>`:e);let i=je.content;if(r===`svg`||r===`mathml`){let e=i.firstChild;for(;e.firstChild;)i.appendChild(e.firstChild);i.removeChild(e)}t.insertBefore(i,n)}return[o?o.nextSibling:t.firstChild,n?n.previousSibling:t.lastChild]}},L=`transition`,Ne=`animation`,R=Symbol(`_vtc`),Pe={name:String,type:String,css:{type:Boolean,default:!0},duration:[String,Number,Object],enterFromClass:String,enterActiveClass:String,enterToClass:String,appearFromClass:String,appearActiveClass:String,appearToClass:String,leaveFromClass:String,leaveActiveClass:String,leaveToClass:String},Fe=A({},j,Pe),Ie=(e=>(e.displayName=`Transition`,e.props=Fe,e))((e,{slots:t})=>xe(de,Re(e),t)),z=(e,t=[])=>{y(e)?e.forEach(e=>e(...t)):e&&e(...t)},Le=e=>e?y(e)?e.some(e=>e.length>1):e.length>1:!1;function Re(e){let t={};for(let n in e)n in Pe||(t[n]=e[n]);if(e.css===!1)return t;let{name:n=`v`,type:r,duration:i,enterFromClass:a=`${n}-enter-from`,enterActiveClass:o=`${n}-enter-active`,enterToClass:s=`${n}-enter-to`,appearFromClass:c=a,appearActiveClass:l=o,appearToClass:u=s,leaveFromClass:d=`${n}-leave-from`,leaveActiveClass:f=`${n}-leave-active`,leaveToClass:p=`${n}-leave-to`}=e,m=ze(i),h=m&&m[0],ee=m&&m[1],{onBeforeEnter:g,onEnter:te,onEnterCancelled:ne,onLeave:_,onLeaveCancelled:re,onBeforeAppear:v=g,onAppear:y=te,onAppearCancelled:ie=ne}=t,b=(e,t,n,r)=>{e._enterCancelled=r,V(e,t?u:s),V(e,t?l:o),n&&n()},ae=(e,t)=>{e._isLeaving=!1,V(e,d),V(e,p),V(e,f),t&&t()},x=e=>(t,n)=>{let i=e?y:te,o=()=>b(t,e,n);z(i,[t,o]),Ve(()=>{V(t,e?c:a),B(t,e?u:s),Le(i)||Ue(t,r,h,o)})};return A(t,{onBeforeEnter(e){z(g,[e]),B(e,a),B(e,o)},onBeforeAppear(e){z(v,[e]),B(e,c),B(e,l)},onEnter:x(!1),onAppear:x(!0),onLeave(e,t){e._isLeaving=!0;let n=()=>ae(e,t);B(e,d),e._enterCancelled?(B(e,f),qe(e)):(qe(e),B(e,f)),Ve(()=>{e._isLeaving&&(V(e,d),B(e,p),Le(_)||Ue(e,r,ee,n))}),z(_,[e,n])},onEnterCancelled(e){b(e,!1,void 0,!0),z(ne,[e])},onAppearCancelled(e){b(e,!0,void 0,!0),z(ie,[e])},onLeaveCancelled(e){ae(e),z(re,[e])}})}function ze(e){if(e==null)return null;if(se(e))return[Be(e.enter),Be(e.leave)];{let t=Be(e);return[t,t]}}function Be(e){return _e(e)}function B(e,t){t.split(/\s+/).forEach(t=>t&&e.classList.add(t)),(e[R]||(e[R]=new Set)).add(t)}function V(e,t){t.split(/\s+/).forEach(t=>t&&e.classList.remove(t));let n=e[R];n&&(n.delete(t),n.size||(e[R]=void 0))}function Ve(e){requestAnimationFrame(()=>{requestAnimationFrame(e)})}var He=0;function Ue(e,t,n,r){let i=e._endId=++He,a=()=>{i===e._endId&&r()};if(n!=null)return setTimeout(a,n);let{type:o,timeout:s,propCount:c}=We(e,t);if(!o)return r();let l=o+`end`,u=0,d=()=>{e.removeEventListener(l,f),a()},f=t=>{t.target===e&&++u>=c&&d()};setTimeout(()=>{u<c&&d()},s+1),e.addEventListener(l,f)}function We(e,t){let n=window.getComputedStyle(e),r=e=>(n[e]||``).split(`, `),i=r(`${L}Delay`),a=r(`${L}Duration`),o=Ge(i,a),s=r(`${Ne}Delay`),c=r(`${Ne}Duration`),l=Ge(s,c),u=null,d=0,f=0;t===L?o>0&&(u=L,d=o,f=a.length):t===Ne?l>0&&(u=Ne,d=l,f=c.length):(d=Math.max(o,l),u=d>0?o>l?L:Ne:null,f=u?u===L?a.length:c.length:0);let p=u===L&&/\b(?:transform|all)(?:,|$)/.test(r(`${L}Property`).toString());return{type:u,timeout:d,propCount:f,hasTransform:p}}function Ge(e,t){for(;e.length<t.length;)e=e.concat(e);return Math.max(...t.map((t,n)=>Ke(t)+Ke(e[n])))}function Ke(e){return e===`auto`?0:Number(e.slice(0,-1).replace(`,`,`.`))*1e3}function qe(e){return(e?e.ownerDocument:document).body.offsetHeight}function Je(e,t,n){let r=e[R];r&&(t=(t?[t,...r]:[...r]).join(` `)),t==null?e.removeAttribute(`class`):n?e.setAttribute(`class`,t):e.className=t}var Ye=Symbol(`_vod`),Xe=Symbol(`_vsh`),Ze=Symbol(``),Qe=/(?:^|;)\s*display\s*:/;function $e(e,t,n){let r=e.style,i=M(n),a=!1;if(n&&!i){if(t){if(M(t))for(let e of t.split(`;`)){let t=e.slice(0,e.indexOf(`:`)).trim();n[t]??tt(r,t,``)}else for(let e in t)n[e]??tt(r,e,``)}for(let i in n){i===`display`&&(a=!0);let o=n[i];o==null?tt(r,i,``):at(e,i,!M(t)&&t?t[i]:void 0,o)||tt(r,i,o)}}else if(i){if(t!==n){let e=r[Ze];e&&(n+=`;`+e),r.cssText=n,a=Qe.test(n)}}else t&&e.removeAttribute(`style`);Ye in e&&(e[Ye]=a?r.display:``,e[Xe]&&(r.display=`none`))}var et=/\s*!important$/;function tt(e,t,n){if(y(n))n.forEach(n=>tt(e,t,n));else if(n??=``,t.startsWith(`--`))et.test(n)?e.setProperty(t,n.replace(et,``),`important`):e.setProperty(t,n);else{let r=it(e,t);et.test(n)?e.setProperty(c(r),n.replace(et,``),`important`):e[r]=n}}var nt=[`Webkit`,`Moz`,`ms`],rt={};function it(e,t){let n=rt[t];if(n)return n;let r=o(t);if(r!==`filter`&&r in e)return rt[t]=r;r=l(r);for(let n=0;n<nt.length;n++){let i=nt[n]+r;if(i in e)return rt[t]=i}return t}function at(e,t,n,r){return e.tagName===`TEXTAREA`&&(t===`width`||t===`height`)&&M(r)&&n===r}var ot=`http://www.w3.org/1999/xlink`;function st(e,t,n,r,i,a=fe(t)){r&&t.startsWith(`xlink:`)?n==null?e.removeAttributeNS(ot,t.slice(6,t.length)):e.setAttributeNS(ot,t,n):n==null||a&&!v(n)?e.removeAttribute(t):e.setAttribute(t,a?``:le(n)?String(n):n)}function ct(e,t,n,r,i){if(t===`innerHTML`||t===`textContent`){n!=null&&(e[t]=t===`innerHTML`?Oe(n):n);return}let a=e.tagName;if(t===`value`&&a!==`PROGRESS`&&!a.includes(`-`)){let r=a===`OPTION`?e.getAttribute(`value`)||``:e.value,i=n==null?e.type===`checkbox`?`on`:``:String(n);(r!==i||!(`_value`in e))&&(e.value=i),n??e.removeAttribute(t),e._value=n;return}let o=!1;if(n===``||n==null){let r=typeof e[t];r===`boolean`?n=v(n):n==null&&r===`string`?(n=``,o=!0):r===`number`&&(n=0,o=!0)}try{e[t]=n}catch{}o&&e.removeAttribute(i||t)}function H(e,t,n,r){e.addEventListener(t,n,r)}function lt(e,t,n,r){e.removeEventListener(t,n,r)}var ut=Symbol(`_vei`);function dt(e,t,n,r,i=null){let a=e[ut]||(e[ut]={}),o=a[t];if(r&&o)o.value=r;else{let[n,s]=mt(t);r?H(e,n,a[t]=vt(r,i),s):o&&(lt(e,n,o,s),a[t]=void 0)}}var ft=/(Once|Passive|Capture)$/,pt=/^on:?(?:Once|Passive|Capture)$/;function mt(e){let t,n;for(;(n=e.match(ft))&&!pt.test(e);)t||={},e=e.slice(0,e.length-n[1].length),t[n[1].toLowerCase()]=!0;return[e[2]===`:`?e.slice(3):c(e.slice(2)),t]}var ht=0,gt=Promise.resolve(),_t=()=>ht||=(gt.then(()=>ht=0),Date.now());function vt(e,t){let n=e=>{if(!e._vts)e._vts=Date.now();else if(e._vts<=n.attached)return;let r=n.value;if(y(r)){let n=e.stopImmediatePropagation;e.stopImmediatePropagation=()=>{n.call(e),e._stopped=!0};let i=r.slice(),a=[e];for(let n=0;n<i.length&&!e._stopped;n++){let e=i[n];e&&pe(e,t,5,a)}}else pe(r,t,5,[e])};return n.value=e,n.attached=_t(),n}var yt=e=>e.charCodeAt(0)===111&&e.charCodeAt(1)===110&&e.charCodeAt(2)>96&&e.charCodeAt(2)<123,bt=(t,n,r,i,a,s)=>{let c=a===`svg`;n===`class`?Je(t,i,c):n===`style`?$e(t,r,i):ge(n)?e(n)||dt(t,n,r,i,s):(n[0]===`.`?(n=n.slice(1),1):n[0]===`^`?(n=n.slice(1),0):xt(t,n,i,c))?(ct(t,n,i),!t.tagName.includes(`-`)&&(n===`value`||n===`checked`||n===`selected`)&&st(t,n,i,c,s,n!==`value`)):t._isVueCE&&(St(t,n)||t._def.__asyncLoader&&(/[A-Z]/.test(n)||!M(i)))?ct(t,o(n),i,s,n):(n===`true-value`?t._trueValue=i:n===`false-value`&&(t._falseValue=i),st(t,n,i,c))};function xt(e,t,n,r){if(r)return!!(t===`innerHTML`||t===`textContent`||t in e&&yt(t)&&h(n));if(t===`spellcheck`||t===`draggable`||t===`translate`||t===`autocorrect`||t===`sandbox`&&e.tagName===`IFRAME`||t===`form`||t===`list`&&e.tagName===`INPUT`||t===`type`&&e.tagName===`TEXTAREA`)return!1;if(t===`width`||t===`height`){let t=e.tagName;if(t===`IMG`||t===`VIDEO`||t===`CANVAS`||t===`SOURCE`)return!1}return yt(t)&&M(n)?!1:t in e}function St(e,t){let n=e._def.props;if(!n)return!1;let r=o(t);return Array.isArray(n)?n.some(e=>o(e)===r):Object.keys(n).some(e=>o(e)===r)}var Ct=new WeakMap,wt=new WeakMap,Tt=Symbol(`_moveCb`),Et=Symbol(`_enterCb`),Dt=(e=>(delete e.props.mode,e))({name:`TransitionGroup`,props:A({},Fe,{tag:String,moveClass:String}),setup(e,{slots:t}){let n=ie(),r=f(),i,a;return ye(()=>{if(!i.length)return;let t=e.moveClass||`${e.name||`v`}-move`;if(!Mt(i[0].el,n.vnode.el,t)){i=[];return}i.forEach(Ot),i.forEach(kt);let r=i.filter(At);qe(n.vnode.el),r.forEach(e=>{let n=e.el,r=n.style;B(n,t),r.transform=r.webkitTransform=r.transitionDuration=``;let i=n[Tt]=e=>{e&&e.target!==n||(!e||e.propertyName.endsWith(`transform`))&&(n.removeEventListener(`transitionend`,i),n[Tt]=null,V(n,t))};n.addEventListener(`transitionend`,i)}),i=[]}),()=>{let o=te(e),s=Re(o),c=o.tag||E;if(i=[],a)for(let e=0;e<a.length;e++){let t=a[e];t.el&&t.el instanceof Element&&!t.el[Xe]&&(i.push(t),d(t,ue(t,s,r,n)),Ct.set(t,jt(t.el)))}a=t.default?ve(t.default()):[];for(let e=0;e<a.length;e++){let t=a[e];t.key!=null&&d(t,ue(t,s,r,n))}return T(c,null,a)}}});function Ot(e){let t=e.el;t[Tt]&&t[Tt](),t[Et]&&t[Et]()}function kt(e){wt.set(e,jt(e.el))}function At(e){let t=Ct.get(e),n=wt.get(e),r=t.left-n.left,i=t.top-n.top;if(r||i){let t=e.el,n=t.style,a=t.getBoundingClientRect(),o=1,s=1;return t.offsetWidth&&(o=a.width/t.offsetWidth),t.offsetHeight&&(s=a.height/t.offsetHeight),(!Number.isFinite(o)||o===0)&&(o=1),(!Number.isFinite(s)||s===0)&&(s=1),Math.abs(o-1)<.01&&(o=1),Math.abs(s-1)<.01&&(s=1),n.transform=n.webkitTransform=`translate(${r/o}px,${i/s}px)`,n.transitionDuration=`0s`,e}}function jt(e){let t=e.getBoundingClientRect();return{left:t.left,top:t.top}}function Mt(e,t,n){let r=e.cloneNode(),i=e[R];i&&i.forEach(e=>{e.split(/\s+/).forEach(e=>e&&r.classList.remove(e))}),n.split(/\s+/).forEach(e=>e&&r.classList.add(e)),r.style.display=`none`;let a=t.nodeType===1?t:t.parentNode;a.appendChild(r);let{hasTransform:o}=We(r);return a.removeChild(r),o}var Nt=e=>{let t=e.props[`onUpdate:modelValue`]||!1;return y(t)?e=>re(t,e):t};function Pt(e){e.target.composing=!0}function Ft(e){let t=e.target;t.composing&&(t.composing=!1,t.dispatchEvent(new Event(`input`)))}var U=Symbol(`_assign`),It=Symbol(`_initialValue`);function Lt(e,t,n){return t&&(e=e.trim()),n&&(e=me(e)),e}var Rt={created(e,{modifiers:{lazy:t,trim:n,number:r}},i){e.parentNode&&(e.type===`text`?e[It]=e.defaultValue.replace(/[\r\n]/g,``):e.type===`textarea`&&(e[It]=e.defaultValue.replace(/\r\n?/g,`
+`))),e[U]=Nt(i);let a=r||i.props&&i.props.type===`number`;H(e,t?`change`:`input`,t=>{t.target.composing||e[U](Lt(e.value,n,a))}),(n||a)&&H(e,`change`,()=>{e.value=Lt(e.value,n,a)}),t||(H(e,`compositionstart`,Pt),H(e,`compositionend`,Ft),H(e,`change`,Ft))},mounted(e,{value:t,modifiers:{trim:n,number:r}}){let i=t??``,a=e[It];delete e[It],a!==void 0&&(e.type===`text`||e.type===`textarea`)&&e.value!==a?e[U](Lt(e.value,n,r)):e.value=i},beforeUpdate(e,{value:t,oldValue:n,modifiers:{lazy:r,trim:i,number:a}},o){if(e[U]=Nt(o),e.composing)return;let s=(a||e.type===`number`)&&!/^0\d/.test(e.value)?me(e.value):e.value,c=t??``;if(s===c)return;let l=e.getRootNode();(l instanceof Document||l instanceof ShadowRoot)&&l.activeElement===e&&e.type!==`range`&&(r&&t===n||i&&e.value.trim()===c)||(e.value=c)}},zt={created(e,{value:t},n){e.checked=ae(t,n.props.value),e[U]=Nt(n),H(e,`change`,()=>{e[U](Bt(e))})},beforeUpdate(e,{value:t,oldValue:n},r){e[U]=Nt(r),t!==n&&(e.checked=ae(t,r.props.value))}};function Bt(e){return`_value`in e?e._value:e.value}var Vt=[`ctrl`,`shift`,`alt`,`meta`],Ht={stop:e=>e.stopPropagation(),prevent:e=>e.preventDefault(),self:e=>e.target!==e.currentTarget,ctrl:e=>!e.ctrlKey,shift:e=>!e.shiftKey,alt:e=>!e.altKey,meta:e=>!e.metaKey,left:e=>`button`in e&&e.button!==0,middle:e=>`button`in e&&e.button!==1,right:e=>`button`in e&&e.button!==2,exact:(e,t)=>Vt.some(n=>e[`${n}Key`]&&!t.includes(n))},Ut=(e,t)=>{if(!e)return e;let n=e._withMods||={},r=t.join(`.`);return n[r]||(n[r]=((n,...r)=>{for(let e=0;e<t.length;e++){let r=Ht[t[e]];if(r&&r(n,t))return}return e(n,...r)}))},Wt=A({patchProp:bt},Me),Gt;function Kt(){return Gt||=ce(Wt)}var qt=((...e)=>{let t=Kt().createApp(...e),{mount:n}=t;return t.mount=e=>{let r=Yt(e);if(!r)return;let i=t._component;!h(i)&&!i.render&&!i.template&&(i.template=r.innerHTML),r.nodeType===1&&(r.textContent=``);let a=n(r,!1,Jt(r));return r instanceof Element&&(r.removeAttribute(`v-cloak`),r.setAttribute(`data-v-app`,``)),a},t});function Jt(e){if(e instanceof SVGElement)return`svg`;if(typeof MathMLElement==`function`&&e instanceof MathMLElement)return`mathml`}function Yt(e){return M(e)?document.querySelector(e):e}var Xt=typeof window<`u`,Zt=Symbol(),Qt=typeof window==`object`&&window.window===window?window:typeof self==`object`&&self.self===self?self:typeof global==`object`&&global.global===global?global:typeof globalThis==`object`?globalThis:{HTMLElement:null};function $t(e,{autoBom:t=!1}={}){return t&&/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(e.type)?new Blob([`﻿`,e],{type:e.type}):e}function en(e,t,n){let r=new XMLHttpRequest;r.open(`GET`,e),r.responseType=`blob`,r.onload=function(){on(r.response,t,n)},r.onerror=function(){console.error(`could not download file`)},r.send()}function tn(e){let t=new XMLHttpRequest;t.open(`HEAD`,e,!1);try{t.send()}catch{}return t.status>=200&&t.status<=299}function nn(e){try{e.dispatchEvent(new MouseEvent(`click`))}catch{let t=new MouseEvent(`click`,{bubbles:!0,cancelable:!0,view:window,detail:0,screenX:80,screenY:20,clientX:80,clientY:20,ctrlKey:!1,altKey:!1,shiftKey:!1,metaKey:!1,button:0,relatedTarget:null});e.dispatchEvent(t)}}var rn=typeof navigator==`object`?navigator:{userAgent:``},an=/Macintosh/.test(rn.userAgent)&&/AppleWebKit/.test(rn.userAgent)&&!/Safari/.test(rn.userAgent),on=Xt?typeof HTMLAnchorElement<`u`&&`download`in HTMLAnchorElement.prototype&&!an?sn:`msSaveOrOpenBlob`in rn?cn:ln:()=>{};function sn(e,t=`download`,n){let r=document.createElement(`a`);r.download=t,r.rel=`noopener`,typeof e==`string`?(r.href=e,r.origin===location.origin?nn(r):tn(r.href)?en(e,t,n):(r.target=`_blank`,nn(r))):(r.href=URL.createObjectURL(e),setTimeout(function(){URL.revokeObjectURL(r.href)},4e4),setTimeout(function(){nn(r)},0))}function cn(e,t=`download`,n){if(typeof e==`string`){if(tn(e))en(e,t,n);else{let t=document.createElement(`a`);t.href=e,t.target=`_blank`,setTimeout(function(){nn(t)})}}else navigator.msSaveOrOpenBlob($t(e,n),t)}function ln(e,t,n,r){if(r||=open(``,`_blank`),r&&(r.document.title=r.document.body.innerText=`downloading...`),typeof e==`string`)return en(e,t,n);let i=e.type===`application/octet-stream`,a=/constructor/i.test(String(Qt.HTMLElement))||`safari`in Qt,o=/CriOS\/[\d]+/.test(navigator.userAgent);if((o||i&&a||an)&&typeof FileReader<`u`){let t=new FileReader;t.onloadend=function(){let e=t.result;if(typeof e!=`string`)throw r=null,Error(`Wrong reader.result type`);e=o?e:e.replace(/^data:[^;]*;/,`data:attachment/file;`),r?r.location.href=e:location.assign(e),r=null},t.readAsDataURL(e)}else{let t=URL.createObjectURL(e);r?r.location.assign(t):location.href=t,r=null,setTimeout(function(){URL.revokeObjectURL(t)},4e4)}}var{assign:un}=Object;function dn(){let e=u(!0),n=e.run(()=>t({})),r=[],i=[],a=ee({install(e){a._a=e,e.provide(Zt,a),e.config.globalProperties.$pinia=a,i.forEach(e=>r.push(e)),i=[]},use(e){return this._a?r.push(e):i.push(e),this},_p:r,_a:null,_e:e,_s:new Map,state:n});return a}var{assign:fn}=Object,pn=e=>e.startsWith(`/`);function mn(e){return typeof e==`object`||`displayName`in e||`props`in e||`__vccOpts`in e}function hn(e){return e.__esModule||e[Symbol.toStringTag]===`Module`||e.default&&mn(e.default)}var W=Object.assign;function gn(e,t){let n={};for(let r in t){let i=t[r];n[r]=G(i)?i.map(e):e(i)}return n}var _n=()=>{},G=Array.isArray;function vn(e,t){let n={};for(let r in e)n[r]=r in t?t[r]:e[r];return n}var yn=Symbol(``);function K(e,t){return W(Error(),{type:e,[yn]:!0},t)}function q(e,t){return e instanceof Error&&yn in e&&(t==null||!!(e.type&t))}var bn=Symbol(``),xn=Symbol(``),Sn=Symbol(``),Cn=Symbol(``),wn=Symbol(``);function Tn(){return x(Sn)}function En(e){return x(Cn)}var J=typeof document<`u`,Dn=/#/g,On=/&/g,kn=/\//g,An=/=/g,jn=/\?/g,Mn=/\+/g,Nn=/%5B/g,Pn=/%5D/g,Fn=/%5E/g,In=/%60/g,Ln=/%7B/g,Rn=/%7C/g,zn=/%7D/g,Bn=/%20/g;function Vn(e){return e==null?``:encodeURI(``+e).replace(Rn,`|`).replace(Nn,`[`).replace(Pn,`]`)}function Hn(e){return Vn(e).replace(Ln,`{`).replace(zn,`}`).replace(Fn,`^`)}function Un(e){return Vn(e).replace(Mn,`%2B`).replace(Bn,`+`).replace(Dn,`%23`).replace(On,`%26`).replace(In,"`").replace(Ln,`{`).replace(zn,`}`).replace(Fn,`^`)}function Wn(e){return Un(e).replace(An,`%3D`)}function Gn(e){return Vn(e).replace(Dn,`%23`).replace(jn,`%3F`)}function Kn(e){return Gn(e).replace(kn,`%2F`)}function qn(e){if(e==null)return null;try{return decodeURIComponent(``+e)}catch{}return``+e}var Jn=/\/$/,Yn=e=>e.replace(Jn,``);function Xn(e,t,n=`/`){let r,i={},a=``,o=``,s=t.indexOf(`#`),c=t.indexOf(`?`);return c=s>=0&&c>s?-1:c,c>=0&&(r=t.slice(0,c),a=t.slice(c,s>0?s:t.length),i=e(a.slice(1))),s>=0&&(r||=t.slice(0,s),o=t.slice(s,t.length)),r=rr(r??t,n),{fullPath:r+a+o,path:r,query:i,hash:qn(o)}}function Zn(e,t){let n=t.query?e(t.query):``;return t.path+(n&&`?`)+n+(t.hash||``)}function Qn(e,t){return!t||!e.toLowerCase().startsWith(t.toLowerCase())?e:e.slice(t.length)||`/`}function $n(e,t,n){let r=t.matched.length-1,i=n.matched.length-1;return r>-1&&r===i&&Y(t.matched[r],n.matched[i])&&er(t.params,n.params)&&e(t.query)===e(n.query)&&t.hash===n.hash}function Y(e,t){return(e.aliasOf||e)===(t.aliasOf||t)}function er(e,t){if(Object.keys(e).length!==Object.keys(t).length)return!1;for(var n in e)if(!tr(e[n],t[n]))return!1;return!0}function tr(e,t){return G(e)?nr(e,t):G(t)?nr(t,e):(e&&e.valueOf())===(t&&t.valueOf())}function nr(e,t){return G(t)?e.length===t.length&&e.every((e,n)=>e===t[n]):e.length===1&&e[0]===t}function rr(e,t){if(pn(e))return e;if(!e)return t;let n=t.split(`/`),r=e.split(`/`),i=r[r.length-1];(i===`..`||i===`.`)&&r.push(``);let a=n.length-1,o,s;for(o=0;o<r.length;o++)if(s=r[o],s!==`.`){if(s===`..`)a>1&&a--;else break}return n.slice(0,a).join(`/`)+`/`+r.slice(o).join(`/`)}var X={path:`/`,name:void 0,params:{},query:{},hash:``,fullPath:`/`,matched:[],meta:{},redirectedFrom:void 0};function ir(e){if(!e){if(J){let t=document.querySelector(`base`);e=t&&t.getAttribute(`href`)||`/`,e=e.replace(/^\w+:\/\/[^/]+/,``)}else e=`/`}return e[0]!==`/`&&e[0]!==`#`&&(e=`/`+e),Yn(e)}var ar=/^[^#]+#/;function or(e,t){return e.replace(ar,`#`)+t}function sr(e,t){let n=document.documentElement.getBoundingClientRect(),r=e.getBoundingClientRect();return{behavior:t.behavior,left:r.left-n.left-(t.left||0),top:r.top-n.top-(t.top||0)}}var cr=()=>history.scrollRestoration===`manual`?{left:window.scrollX,top:window.scrollY}:null;function lr(e){let t;if(`el`in e){let n=e.el,r=typeof n==`string`&&n.startsWith(`#`),i=typeof n==`string`?r?document.getElementById(n.slice(1)):document.querySelector(n):n;if(!i)return;t=sr(i,e)}else t=e;`scrollBehavior`in document.documentElement.style?window.scrollTo(t):window.scrollTo(t.left==null?window.scrollX:t.left,t.top==null?window.scrollY:t.top)}function ur(e,t){return(history.state?history.state.position-t:-1)+e}var dr=new Map;function fr(e){dr.set(e,cr())}function pr(e){let t=dr.get(e);return dr.delete(e),t}function mr(e){return typeof e==`string`||e&&typeof e==`object`}function hr(e){return typeof e==`string`||typeof e==`symbol`}function gr(e){let t={};if(e===``||e===`?`)return t;let n=(e[0]===`?`?e.slice(1):e).split(`&`);for(let e=0;e<n.length;++e){let r=n[e].replace(Mn,` `),i=r.indexOf(`=`),a=qn(i<0?r:r.slice(0,i)),o=i<0?null:qn(r.slice(i+1));if(a in t){let e=t[a];G(e)||(e=t[a]=[e]),e.push(o)}else t[a]=o}return t}function _r(e){let t=``;for(let n in e){let r=e[n];if(n=Wn(n),r==null){r!==void 0&&(t+=(t.length?`&`:``)+n);continue}(G(r)?r.map(e=>e&&Un(e)):[r&&Un(r)]).forEach(e=>{e!==void 0&&(t+=(t.length?`&`:``)+n,e!=null&&(t+=`=`+e))})}return t}function vr(e){let t={};for(let n in e){let r=e[n];r!==void 0&&(t[n]=G(r)?r.map(e=>e==null?null:``+e):r==null?r:``+r)}return t}function yr(){let e=[];function t(t){return e.push(t),()=>{let n=e.indexOf(t);n>-1&&e.splice(n,1)}}function n(){e=[]}return{add:t,list:()=>e.slice(),reset:n}}function Z(e,t,n,r,i,a=e=>e()){let o=r&&(r.enterCallbacks[i]=r.enterCallbacks[i]||[]);return()=>new Promise((s,c)=>{let l=e=>{e===!1?c(K(4,{from:n,to:t})):e instanceof Error?c(e):mr(e)?c(K(2,{from:t,to:e})):(o&&r.enterCallbacks[i]===o&&typeof e==`function`&&o.push(e),s())},u=a(()=>e.call(r&&r.instances[i],t,n,l)),d=Promise.resolve(u);e.length<3&&(d=d.then(l)),d.catch(e=>c(e))})}function br(e,t,n,r,i=e=>e()){let a=[];for(let o of e)for(let e in o.components){let s=o.components[e];if(t===`beforeRouteEnter`||o.instances[e]){if(mn(s)){let c=(s.__vccOpts||s)[t];c&&a.push(Z(c,n,r,o,e,i))}else{let c=s();a.push(()=>c.then(a=>{if(!a)throw Error(`Couldn't resolve component "${e}" at "${o.path}"`);let s=hn(a)?a.default:a;o.mods[e]=a,o.components[e]=s;let c=(s.__vccOpts||s)[t];return c&&Z(c,n,r,o,e,i)()}))}}}return a}function xr(e,t){let n=[],r=[],i=[],a=Math.max(t.matched.length,e.matched.length);for(let o=0;o<a;o++){let a=t.matched[o];a&&(e.matched.find(e=>Y(e,a))?r.push(a):n.push(a));let s=e.matched[o];s&&(t.matched.find(e=>Y(e,s))||i.push(s))}return[n,r,i]}var Sr=()=>location.protocol+`//`+location.host;function Cr(e,t){let{pathname:n,search:r,hash:i}=t,a=e.indexOf(`#`);if(a>-1){let t=i.includes(e.slice(a))?e.slice(a).length:1,n=i.slice(t);return n[0]!==`/`&&(n=`/`+n),Qn(n,``)}return Qn(n,e)+r+i}function wr(e,t,n,r){let i=[],a=[],o=null,s=({state:a})=>{let s=Cr(e,location),c=n.value,l=t.value,u=0;if(a){if(n.value=s,t.value=a,o&&o===c){o=null;return}u=l?a.position-l.position:0}else r(s);i.forEach(e=>{e(n.value,c,{delta:u,type:`pop`,direction:u?u>0?`forward`:`back`:``})})};function c(){o=n.value}function l(e){i.push(e);let t=()=>{let t=i.indexOf(e);t>-1&&i.splice(t,1)};return a.push(t),t}function u(){let{history:e}=window;e.state&&e.replaceState(W({},e.state,{scroll:cr()}),``)}function d(){for(let e of a)e();a=[],window.removeEventListener(`popstate`,s),window.removeEventListener(`pagehide`,u)}return window.addEventListener(`popstate`,s),window.addEventListener(`pagehide`,u),{pauseListeners:c,listen:l,destroy:d}}function Tr(e,t,n,r=!1){return{back:e,current:t,forward:n,replaced:r,position:window.history.length,scroll:null}}function Er(e){let{history:t,location:n}=window,r={value:Cr(e,n)},i={value:t.state};i.value||a(r.value,{back:null,current:r.value,forward:null,position:t.length-1,replaced:!0,scroll:null},!0);function a(r,a,o){let s=e.indexOf(`#`),c=s>-1?(n.host&&document.querySelector(`base`)?e:e.slice(s))+r:Sr()+e+r;try{t[o?`replaceState`:`pushState`](a,``,c),i.value=a}catch(e){console.error(e),n[o?`replace`:`assign`](c)}}function o(e,n){a(e,W({},t.state,Tr(i.value.back,e,i.value.forward,!0),n,{position:i.value.position}),!0),r.value=e}function s(e,n){let o=W({},i.value,t.state,{forward:e,scroll:cr()});a(o.current,o,!0),a(e,W({},Tr(r.value,e,null),{position:o.position+1},n),!1),r.value=e}return{location:r,state:i,push:s,replace:o}}function Dr(e){e=ir(e);let t=Er(e),n=wr(e,t.state,t.location,t.replace);function r(e,t=!0){t||n.pauseListeners(),history.go(e)}let i=W({location:``,base:e,go:r,createHref:or.bind(null,e)},t,n);return Object.defineProperty(i,"location",{enumerable:!0,get:()=>t.location.value}),Object.defineProperty(i,"state",{enumerable:!0,get:()=>t.state.value}),i}var Or={type:0,value:``},kr=/[a-zA-Z0-9_]/;function Ar(e){if(!e)return[[]];if(e===`/`)return[[Or]];if(!pn(e))throw Error(`Invalid path "${e}"`);function t(e){throw Error(`ERR (${n})/"${l}": ${e}`)}let n=0,r=n,i=[],a;function o(){a&&i.push(a),a=[]}let s=0,c,l=``,u=``;function d(){l&&=(n===0?a.push({type:0,value:l}):n===1||n===2||n===3?(a.length>1&&(c===`*`||c===`+`)&&t(`A repeatable param (${l}) must be alone in its segment. eg: '/:ids+.`),a.push({type:1,value:l,regexp:u,repeatable:c===`*`||c===`+`,optional:c===`*`||c===`?`})):t(`Invalid state to consume buffer`),``)}function f(){l+=c}for(;s<e.length;)switch(c=e[s++],n){case 0:c===`\\`?(r=n,n=4):c===`/`?(l&&d(),o()):c===`:`?(d(),n=1):f();break;case 4:f(),n=r;break;case 1:c===`(`?n=2:kr.test(c)?f():(d(),n=0,c!==`*`&&c!==`?`&&c!==`+`&&s--);break;case 2:c===`)`?u[u.length-1]==`\\`?u=u.slice(0,-1)+c:n=3:u+=c;break;case 3:d(),n=0,c!==`*`&&c!==`?`&&c!==`+`&&s--,u=``;break;default:t(`Unknown state`)}return n===2&&t(`Unfinished custom RegExp for param "${l}"`),d(),o(),i}var jr=`[^/]+?`,Mr={sensitive:!1,strict:!1,start:!0,end:!0},Nr=/[.+*?^${}()[\]/\\]/g;function Pr(e,t){let n=W({},Mr,t),r=[],i=n.start?`^`:``,a=[];for(let t of e){let e=t.length?[]:[90];n.strict&&!t.length&&(i+=`/`);for(let r=0;r<t.length;r++){let o=t[r],s=40+(n.sensitive?.25:0);if(o.type===0)r||(i+=`/`),i+=o.value.replace(Nr,`\\$&`),s+=40;else if(o.type===1){let{value:e,repeatable:n,optional:c,regexp:l}=o;a.push({name:e,repeatable:n,optional:c});let u=l||jr;if(u!==jr){s+=10;try{RegExp(`(${u})`)}catch(t){throw Error(`Invalid custom RegExp for param "${e}" (${u}): `+t.message)}}let d=n?`((?:${u})(?:/(?:${u}))*)`:`(${u})`;r||(d=c&&t.length<2?`(?:/${d})`:`/`+d),c&&(d+=`?`),i+=d,s+=20,c&&(s+=-8),n&&(s+=-20),u===`.*`&&(s+=-50)}e.push(s)}r.push(e)}if(n.strict&&n.end){let e=r.length-1;r[e][r[e].length-1]+=.7000000000000001}n.strict||(i+=`/?`),n.end?i+=`$`:n.strict&&!i.endsWith(`/`)&&(i+=`(?:/|$)`);let o=new RegExp(i,n.sensitive?``:`i`);function s(e){let t=e.match(o),n={};if(!t)return null;for(let e=1;e<t.length;e++){let r=t[e]||``,i=a[e-1];n[i.name]=r&&i.repeatable?r.split(`/`):r}return n}function c(t){let n=``,r=!1;for(let i of e){(!r||!n.endsWith(`/`))&&(n+=`/`),r=!1;for(let e of i)if(e.type===0)n+=e.value;else if(e.type===1){let{value:a,repeatable:o,optional:s}=e,c=a in t?t[a]:``;if(G(c)&&!o)throw Error(`Provided param "${a}" is an array but it is not repeatable (* or + modifiers)`);let l=G(c)?c.join(`/`):c;if(!l){if(s)i.length<2&&(n.endsWith(`/`)?n=n.slice(0,-1):r=!0);else throw Error(`Missing required param "${a}"`)}n+=l}}return n||`/`}return{re:o,score:r,keys:a,parse:s,stringify:c}}function Fr(e,t){let n=0;for(;n<e.length&&n<t.length;){let r=t[n]-e[n];if(r)return r;n++}return e.length<t.length?e.length===1&&e[0]===80?-1:1:e.length>t.length?t.length===1&&t[0]===80?1:-1:0}function Ir(e,t){let n=0,r=e.score,i=t.score;for(;n<r.length&&n<i.length;){let e=Fr(r[n],i[n]);if(e)return e;n++}if(Math.abs(i.length-r.length)===1){if(Lr(r))return 1;if(Lr(i))return-1}return i.length-r.length}function Lr(e){let t=e[e.length-1];return e.length>0&&t[t.length-1]<0}var Rr={strict:!1,end:!0,sensitive:!1};function zr(e,t,n){let r=W(Pr(Ar(e.path),n),{record:e,parent:t,children:[],alias:[]});return t&&!r.record.aliasOf==!t.record.aliasOf&&t.children.push(r),r}function Br(e,t){let n=[],r=new Map;t=vn(Rr,t);function i(e){return r.get(e)}function a(e,n,r){let i=!r,s=Hr(e);s.aliasOf=r&&r.record;let l=vn(t,e),u=[s];if(`alias`in e){let t=typeof e.alias==`string`?[e.alias]:e.alias;for(let e of t)u.push(Hr(W({},s,{components:r?r.record.components:s.components,path:e,aliasOf:r?r.record:s})))}let d,f;for(let t of u){let{path:u}=t;if(n&&!pn(u)){let e=n.record.path,r=e[e.length-1]===`/`?``:`/`;t.path=n.record.path+(u&&r+u)}if(d=zr(t,n,l),r?r.alias.push(d):(f||=d,f!==d&&f.alias.push(d),i&&e.name&&!Wr(d)&&o(e.name)),Jr(d)&&c(d),s.children){let e=s.children;for(let t=0;t<e.length;t++)a(e[t],d,r&&r.children[t])}r||=d}return f?()=>{o(f)}:_n}function o(e){if(hr(e)){let t=r.get(e);t&&(r.delete(e),n.splice(n.indexOf(t),1),t.children.forEach(o),t.alias.forEach(o))}else{let t=n.indexOf(e);t>-1&&(n.splice(t,1),e.record.name&&r.delete(e.record.name),e.children.forEach(o),e.alias.forEach(o))}}function s(){return n}function c(e){let t=Kr(e,n);n.splice(t,0,e),e.record.name&&!Wr(e)&&r.set(e.record.name,e)}function l(e,t){let i,a={},o,s;if(`name`in e&&e.name){if(i=r.get(e.name),!i)throw K(1,{location:e});s=i.record.name,a=W(Vr(t.params,i.keys.filter(e=>!e.optional).concat(i.parent?i.parent.keys.filter(e=>e.optional):[]).map(e=>e.name)),e.params&&Vr(e.params,i.keys.map(e=>e.name))),o=i.stringify(a)}else if(e.path!=null)o=e.path,i=n.find(e=>e.re.test(o)),i&&(a=i.parse(o),s=i.record.name,i.keys.forEach(e=>{e.optional&&!a[e.name]&&delete a[e.name]}));else{if(i=t.name?r.get(t.name):n.find(e=>e.re.test(t.path)),!i)throw K(1,{location:e,currentLocation:t});s=i.record.name,a=W({},t.params,e.params),o=i.stringify(a)}let c=[],l=i;for(;l;)c.unshift(l.record),l=l.parent;return{name:s,path:o,params:a,matched:c,meta:Gr(c)}}e.forEach(e=>a(e));function u(){n.length=0,r.clear()}return{addRoute:a,resolve:l,removeRoute:o,clearRoutes:u,getRoutes:s,getRecordMatcher:i}}function Vr(e,t){let n={};for(let r of t)r in e&&(n[r]=e[r]);return n}function Hr(e){let t={path:e.path,redirect:e.redirect,name:e.name,meta:e.meta||{},aliasOf:e.aliasOf,beforeEnter:e.beforeEnter,props:Ur(e),children:e.children||[],instances:{},leaveGuards:new Set,updateGuards:new Set,enterCallbacks:{},components:`components`in e?e.components||null:e.component&&{default:e.component}};return Object.defineProperty(t,"mods",{value:{}}),t}function Ur(e){let t={},n=e.props||!1;if(`component`in e)t.default=n;else for(let r in e.components)t[r]=typeof n==`object`?n[r]:n;return t}function Wr(e){for(;e;){if(e.record.aliasOf)return!0;e=e.parent}return!1}function Gr(e){return e.reduce((e,t)=>W(e,t.meta),{})}function Kr(e,t){let n=0,r=t.length;for(;n!==r;){let i=n+r>>1;Ir(e,t[i])<0?r=i:n=i+1}let i=qr(e);return i&&(r=t.lastIndexOf(i,r-1)),r}function qr(e){let t=e;for(;t=t.parent;)if(Jr(t)&&Ir(e,t)===0)return t}function Jr({record:e}){return!!(e.name||e.components&&Object.keys(e.components).length||e.redirect)}function Yr(e){let t=x(Sn),n=x(Cn),r=N(()=>{let n=_(e.to);return t.resolve(n)}),i=N(()=>{let{matched:e}=r.value,{length:t}=e,i=e[t-1],a=n.matched;if(!i||!a.length)return-1;let o=a.findIndex(Y.bind(null,i));if(o>-1)return o;let s=ei(e[t-2]);return t>1&&ei(i)===s&&a[a.length-1].path!==s?a.findIndex(Y.bind(null,e[t-2])):o}),a=N(()=>i.value>-1&&$r(n.params,r.value.params)),o=N(()=>i.value>-1&&i.value===n.matched.length-1&&er(n.params,r.value.params));function s(n={}){if(Qr(n)){let n=t[_(e.replace)?`replace`:`push`](_(e.to)).catch(_n);return e.viewTransition&&typeof document<`u`&&`startViewTransition`in document&&document.startViewTransition(()=>n),n}return Promise.resolve()}return{route:r,href:N(()=>r.value.href),isActive:a,isExactActive:o,navigate:s}}function Xr(e){return e.length===1?e[0]:e}var Zr=w({name:`RouterLink`,compatConfig:{MODE:3},props:{to:{type:[String,Object],required:!0},replace:Boolean,activeClass:String,exactActiveClass:String,custom:Boolean,ariaCurrentValue:{type:String,default:`page`},viewTransition:Boolean},useLink:Yr,setup(e,{slots:t}){let n=Se(Yr(e)),{options:r}=x(Sn),i=N(()=>({[ti(e.activeClass,r.linkActiveClass,`router-link-active`)]:n.isActive,[ti(e.exactActiveClass,r.linkExactActiveClass,`router-link-exact-active`)]:n.isExactActive}));return()=>{let r=t.default&&Xr(t.default(n));return e.custom?r:xe(`a`,{"aria-current":n.isExactActive?e.ariaCurrentValue:null,href:n.href,onClick:n.navigate,class:i.value},r)}}});function Qr(e){if(!(e.metaKey||e.altKey||e.ctrlKey||e.shiftKey)&&!e.defaultPrevented&&(e.button===void 0||e.button===0)){if(e.currentTarget&&e.currentTarget.getAttribute){let t=e.currentTarget.getAttribute(`target`);if(/\b_blank\b/i.test(t))return}return e.preventDefault&&e.preventDefault(),!0}}function $r(e,t){for(let n in t){let r=t[n],i=e[n];if(G(r)){if(!G(i)||i.length!==r.length||r.some((e,t)=>e.valueOf()!==i[t].valueOf()))return!1}else if(r!==i)return!1}return!0}function ei(e){return e?e.aliasOf?e.aliasOf.path:e.path:``}var ti=(e,t,n)=>e??t??n,ni=w({name:`RouterView`,inheritAttrs:!1,props:{name:{type:String,default:`default`},route:Object},compatConfig:{MODE:3},setup(e,{attrs:n,slots:r}){let a=x(wn),o=N(()=>e.route||a.value),s=x(xn,0),c=N(()=>{let e=_(s),{matched:t}=o.value,n;for(;(n=t[e])&&!n.components;)e++;return e}),l=N(()=>o.value.matched[c.value]);i(xn,N(()=>c.value+1)),i(bn,l),i(wn,o);let u=t();return m(()=>[u.value,l.value,e.name],([e,t,n],[r,i,a])=>{t&&(t.instances[n]=e,i&&i!==t&&e&&e===r&&(t.leaveGuards.size||(t.leaveGuards=i.leaveGuards),t.updateGuards.size||(t.updateGuards=i.updateGuards))),e&&t&&(!i||!Y(t,i)||!r)&&(t.enterCallbacks[n]||[]).forEach(t=>t(e))},{flush:`post`}),()=>{let t=o.value,i=e.name,a=l.value,s=a&&a.components[i];if(!s)return ri(r.default,{Component:s,route:t});let c=a.props[i],d=c?c===!0?t.params:typeof c==`function`?c(t):c:null,f=xe(s,W({},d,n,{onVnodeUnmounted:e=>{e.component.isUnmounted&&(a.instances[i]=null)},ref:u}));return ri(r.default,{Component:f,route:t})||f}}});function ri(e,t){if(!e)return null;let n=e(t);return n.length===1?n[0]:n}var ii=ni;function ai(e){let t=Br(e.routes,e),n=e.parseQuery||gr,r=e.stringifyQuery||_r,i=e.history,a=yr(),o=yr(),c=yr(),l=s(X),u=s(0),d=X;J&&e.scrollBehavior&&`scrollRestoration`in history&&(history.scrollRestoration=`manual`);let f=gn.bind(null,e=>``+e),p=gn.bind(null,Kn),m=gn.bind(null,qn);function h(e,n){let r,i;hr(e)?(r=t.getRecordMatcher(e),i=n):i=e;let a=t.addRoute(i,r);return u.value++,()=>{a(),u.value++}}function ee(e){let n=t.getRecordMatcher(e);n&&(t.removeRoute(n),u.value++)}function g(){t.clearRoutes(),u.value++}function te(){return t.getRoutes().map(e=>e.record)}function re(e){return!!t.getRecordMatcher(e)}function v(e,a){if(u.value,typeof e==`string`){a||=e.startsWith(`/`)?X:l.value;let r=Xn(n,e,a.path),o=t.resolve({path:r.path},a),s=i.createHref(r.fullPath);return W(r,o,{params:m(o.params),redirectedFrom:void 0,href:s})}a=W({},a||(e.path!=null&&e.path.startsWith(`/`)&&!(`name`in e&&e.name)?X:l.value));let o;if(e.path!=null)o=W({},e,{path:Xn(n,e.path,a.path).path});else{let t=W({},e.params);for(let e in t)t[e]??delete t[e];o=W({},e,{params:p(t)}),a.params=p(a.params)}let s=t.resolve(o,a),c=e.hash||``;s.params=f(m(s.params));let d=Zn(r,W({},e,{hash:Hn(c),path:s.path})),h=i.createHref(d);return W({fullPath:d,hash:c,query:r===_r?vr(e.query):e.query||{}},s,{redirectedFrom:void 0,href:h})}function y(e){return typeof e==`string`?Xn(n,e,l.value.path):W({},e)}function ie(e,t){if(d!==e)return K(8,{from:t,to:e})}function b(e){return S(e)}function ae(e){return b(W(y(e),{replace:!0}))}function x(e,t){let n=e.matched[e.matched.length-1];if(n&&n.redirect){let{redirect:r}=n,i=typeof r==`function`?r(e,t):r;return typeof i==`string`&&(i=i.includes(`?`)||i.includes(`#`)?i=y(i):{path:i},i.params={}),W({query:e.query,hash:e.hash,params:i.path==null?e.params:{}},i)}}function S(e,t){let n=d=v(e),i=l.value,a=e.state,o=e.force,s=e.replace===!0,c=x(n,i);if(c)return S(W(y(c),{state:typeof c==`object`?W({},a,c.state):a,force:o,replace:s}),t||n);let u=n;u.redirectedFrom=t;let f;return!o&&$n(r,i,n)&&(f=K(16,{to:u,from:i}),fe(i,i,!0,!1)),(f?Promise.resolve(f):se(u,i)).catch(e=>q(e)?q(e,2)?e:de(e):O(e,u,i)).then(e=>{if(e){if(q(e,2))return S(W({replace:s},y(e.to),{state:typeof e.to==`object`?W({},a,e.to.state):a,force:o}),t||u)}else e=w(u,i,!0,s,a);return ce(u,i,e),e})}function oe(e,t){let n=ie(e,t);return n?Promise.reject(n):Promise.resolve()}function C(e){let t=A.values().next().value;return t&&typeof t.runWithContext==`function`?t.runWithContext(e):e()}function se(e,t){let n,[r,i,s]=xr(e,t);n=br(r.reverse(),`beforeRouteLeave`,e,t);for(let i of r)i.leaveGuards.forEach(r=>{n.push(Z(r,e,t))});let c=oe.bind(null,e,t);return n.push(c),M(n).then(()=>{n=[];for(let r of a.list())n.push(Z(r,e,t));return n.push(c),M(n)}).then(()=>{n=br(i,`beforeRouteUpdate`,e,t);for(let r of i)r.updateGuards.forEach(r=>{n.push(Z(r,e,t))});return n.push(c),M(n)}).then(()=>{n=[];for(let r of s)if(r.beforeEnter){if(G(r.beforeEnter))for(let i of r.beforeEnter)n.push(Z(i,e,t));else n.push(Z(r.beforeEnter,e,t))}return n.push(c),M(n)}).then(()=>(e.matched.forEach(e=>e.enterCallbacks={}),n=br(s,`beforeRouteEnter`,e,t,C),n.push(c),M(n))).then(()=>{n=[];for(let r of o.list())n.push(Z(r,e,t));return n.push(c),M(n)}).catch(e=>q(e,8)?e:Promise.reject(e))}function ce(e,t,n){c.list().forEach(r=>C(()=>r(e,t,n)))}function w(e,t,n,r,a){let o=ie(e,t);if(o)return o;let s=t===X,c=J?history.state:{};n&&(r||s?i.replace(e.fullPath,W({scroll:s&&c&&c.scroll},a)):i.push(e.fullPath,a)),l.value=e,fe(e,t,n,s),de()}let T;function E(){T||=i.listen((e,t,n)=>{if(!j.listening)return;let r=v(e),a=x(r,j.currentRoute.value);if(a){S(W(a,{replace:!0,force:!0}),r).catch(_n);return}d=r;let o=l.value;J&&n.delta&&fr(ur(o.fullPath,n.delta)),se(r,o).catch(e=>q(e,12)?e:q(e,2)?(S(W(y(e.to),{force:!0}),r).then(e=>{q(e,20)&&!n.delta&&n.type===`pop`&&i.go(-1,!1)}).catch(_n),Promise.reject()):(n.delta&&i.go(-n.delta,!1),O(e,r,o))).then(e=>{e||=w(r,o,!1),e&&(n.delta&&!q(e,8)?i.go(-n.delta,!1):n.type===`pop`&&q(e,20)&&i.go(-1,!1)),ce(r,o,e)}).catch(_n)})}let le=yr(),ue=yr(),D;function O(e,t,n){de(e);let r=ue.list();return r.length?r.forEach(r=>r(e,t,n)):console.error(e),Promise.reject(e)}function k(){return D&&l.value!==X?Promise.resolve():new Promise((e,t)=>{le.add([e,t])})}function de(e){return D||(D=!e,E(),le.list().forEach(([t,n])=>e?n(e):t()),le.reset()),e}function fe(t,n,r,i){let{scrollBehavior:a}=e;if(!J||!a)return Promise.resolve();let o=!r&&pr(ur(t.fullPath,0))||(i||!r)&&history.state&&history.state.scroll||null;return be().then(()=>a(t,n,o)).then(e=>t===l.value&&e&&lr(e)).catch(e=>t===l.value&&O(e,t,n))}let pe=e=>i.go(e),me,A=new Set,j={currentRoute:l,listening:!0,addRoute:h,removeRoute:ee,clearRoutes:g,hasRoute:re,getRoutes:te,resolve:v,options:e,push:b,replace:ae,go:pe,back:()=>pe(-1),forward:()=>pe(1),beforeEach:a.add,beforeResolve:o.add,afterEach:c.add,onError:ue.add,isReady:k,install(e){e.component(`RouterLink`,Zr),e.component(`RouterView`,ii),e.config.globalProperties.$router=j,Object.defineProperty(e.config.globalProperties,"$route",{enumerable:!0,get:()=>_(l)}),J&&!me&&l.value===X&&(me=!0,b(i.location).catch(e=>{}));let t={};for(let e in X)Object.defineProperty(t,e,{get:()=>l.value[e],enumerable:!0});e.provide(Sn,j),e.provide(Cn,ne(t)),e.provide(wn,l);let n=e.unmount;A.add(e),e.unmount=function(){A.delete(e),A.size<1&&(d=X,T&&T(),T=null,l.value=X,me=!1,D=!1),n()}}};function M(e){return e.reduce((e,t)=>e.then(()=>C(t)),Promise.resolve())}return j}var oi=new Map;function si(e){if(!e)return``;let t=oi.get(e);if(t)return t;let n=Te(e);return oi.set(e,n),n}var ci=[`src`,`alt`],li={key:1},ui=P(w({__name:`BaseAvatar`,props:{mediaId:{},name:{},size:{}},setup(e){let t=e,n=N(()=>t.mediaId?si(t.mediaId):``),r=N(()=>(t.name??`?`).slice(0,1));return(t,i)=>(g(),C(`span`,{class:`avatar`,style:oe({width:`${e.size??48}px`,height:`${e.size??48}px`})},[n.value?(g(),C(`img`,{key:0,src:n.value,alt:e.name??``},null,8,ci)):(g(),C(`span`,li,k(r.value),1))],4))}}),[[`__scopeId`,`data-v-1d4686bf`]]),di=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l9 16H3L12 4z"/><path d="M12 10v4M12 16.5v.5"/></svg>
+`,fi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
+`,pi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18h16"/><path d="M7 18c0-6 10-6 10 0"/><path d="M17 7c1.5 1.5 2 3.5 1.2 5"/></svg>
+`,mi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16h12l-1.2-2.2V10a4.8 4.8 0 0 0-9.6 0v3.8L6 16z"/><path d="M10 18a2 2 0 0 0 4 0"/></svg>
+`,hi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7.2 9.2a2.2 2.2 0 1 1 0-3.1 2.2 2.2 0 1 1 3.1 0L16.8 12.6a2.2 2.2 0 1 1 0 3.1 2.2 2.2 0 1 1-3.1 0L7.2 9.2z"/></svg>
+`,gi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 4v4M16 4v4M4 11h16"/></svg>
+`,_i=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7" width="17" height="12" rx="2.5"/><circle cx="12" cy="13" r="3"/><path d="M9 7l1.2-2h3.6L15 7"/></svg>
+`,vi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6.5" width="18" height="12" rx="2"/><path d="M3 10.5h18"/></svg>
+`,yi=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <path d="M8 11V11.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M16 11V11.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M11 15H13L12 16L11 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M18 14.5L22 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M18 17L21.5 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M6 14.5L2 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M6 17L2.5 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M3.28125 11C3.34566 10.7775 3.42057 10.5588 3.50547 10.3443C3.71942 9.8037 3.82639 9.53341 3.83453 9.36834C3.84266 9.20326 3.75537 8.89775 3.58077 8.28671C3.23955 7.09254 3.19717 5.63145 3.52602 4.5068C3.65296 4.07268 3.71643 3.85562 4.38389 3.58155C5.05136 3.30749 5.39987 3.5011 6.09689 3.88833L8.99774 5.4999C8.99774 5.4999 9.99774 4.9999 11.9977 4.9999C13.9977 4.9999 14.9977 5.4999 14.9977 5.4999L17.8986 3.88833C18.5956 3.5011 18.9441 3.30749 19.6116 3.58155C20.2791 3.85562 20.3425 4.07268 20.4695 4.5068C20.7983 5.63145 20.7559 7.09254 20.4147 8.28671C20.2401 8.89775 20.1528 9.20326 20.161 9.36834C20.1691 9.53341 20.2761 9.8037 20.49 10.3443C20.5749 10.5588 20.6498 10.7775 20.7142 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  <path d="M17 19.6528C15.5699 20.5037 13.8501 21 12 21C10.1499 21 8.4301 20.5037 7 19.6528" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+</svg>
+`,bi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7.5A3.5 3.5 0 0 1 8.5 4h7A3.5 3.5 0 0 1 19 7.5v5A3.5 3.5 0 0 1 15.5 16H10l-4 3.5V7.5z"/></svg>
+`,xi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+`,Si=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+`,Ci=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+`,wi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+`,Ti=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4.5l3 2"/></svg>
+`,Ei=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+`,Di=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9h10v6a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4V9z"/><path d="M16 10h2.2A2.3 2.3 0 0 1 20.5 12.3 2.3 2.3 0 0 1 18.2 14.6H16"/><path d="M8 5s.5 1.5 0 2.4M11 5s.5 1.5 0 2.4"/></svg>
+`,Oi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17h16l-1.5-9-4.5 4L12 6l-2 6-4.5-4L4 17z"/><path d="M6 19h12"/></svg>
+`,ki=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4l12-12-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg>
+`,Ai=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5l16 14M9.5 9.6A3.5 3.5 0 0 0 12 16a3.5 3.5 0 0 0 3.2-2"/><path d="M6.2 7.4C4.2 8.8 3 12 3 12s3.5 6 9 6c1.7 0 3.3-.5 4.6-1.2M14.5 8.2A8.7 8.7 0 0 1 21 12"/></svg>
+`,ji=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.4"/></svg>
+`,Mi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M7 12h10M10 17h4"/></svg>
+`,Ni=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4v16M6 5h11l-2 3.5L17 12H6"/></svg>
+`,Pi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="4"/><path d="M12 13v8M9 18h6"/></svg>
+`,Fi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="14" r="4.2"/><path d="M13 11l6-6M15 5h4v4"/></svg>
+`,Ii=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+`,Li=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>
+`,Ri=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19s-7-4.4-7-9.1A3.9 3.9 0 0 1 12 7.2 3.9 3.9 0 0 1 19 9.9C19 14.6 12 19 12 19z"/></svg>
+`,zi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M9.6 9.4a2.4 2.4 0 1 1 3.8 2c-.8.5-1.4 1-1.4 2.1V14"/><path d="M12 16.8v.4"/></svg>
+`,Bi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 5l8 6.5V20H4v-8.5z"/><path d="M10 20v-6h4v6"/></svg>
+`,Vi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="16" rx="2"/><path d="M12 8v8M8 12h8"/></svg>
+`,Hi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9l8-4 8 4v10"/><path d="M9 19v-5h6v5"/></svg>
+`,Ui=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="14" rx="2"/><circle cx="9" cy="10" r="1.5"/><path d="M3.8 16.5 9 12l4 3 2.2-1.8 5 3.3"/></svg>
+`,Wi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 11v5M12 8v.5"/></svg>
+`,Gi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="12" height="9" rx="2"/><path d="M8.5 11V8.2a3.5 3.5 0 0 1 7 0V11"/></svg>
+`,Ki=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/><path d="M13 12h8M18 8l3 4-3 4"/></svg>
+`,qi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="6" width="17" height="12" rx="2"/><path d="M4 8l8 6 8-6"/></svg>
+`,Ji=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="14" r="5"/><path d="M9 10 8 4h8l-1 6"/></svg>
+`,Yi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="18" cy="12" r="1.2" fill="currentColor" stroke="none"/></svg>
+`,Xi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="16.2" rx="5" ry="4"/><circle cx="5.8" cy="9.2" r="1.85"/><circle cx="9.4" cy="6.4" r="1.85"/><circle cx="14.6" cy="6.4" r="1.85"/><circle cx="18.2" cy="9.2" r="1.85"/></svg>
+`,Zi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.2"/></svg>
+`,Qi=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+`,$i=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 19.2c.8-3.2 3.2-5 6.5-5s5.7 1.8 6.5 5"/></svg>
+`,ea=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.2-5.6"/><path d="M20 5v5h-5"/></svg>
+`,ta=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15.5 15.5 4l4.5 4.5L8.5 20 4 15.5z"/><path d="M8 11.5l1.5 1.5M10.5 9l1.5 1.5M13 6.5l1.5 1.5"/></svg>
+`,na=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="8" r="2.4"/><circle cx="7" cy="16" r="2.4"/><path d="M9 9.6 20 19M9 14.4 20 5"/></svg>
+`,ra=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+`,ia=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 3v5.2c0 4.3-3 7.3-7 8.8-4-1.5-7-4.5-7-8.8V6.5l7-3z"/><path d="M9.5 12.2l2 2 3.5-3.6"/></svg>
+`,aa=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l16-8-6 16-2.5-6.5L4 12z"/></svg>
+`,oa=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9c.3.7.9 1.2 1.6 1.3H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+`,sa=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 3v5.2c0 4.3-3 7.3-7 8.8-4-1.5-7-4.5-7-8.8V6.5l7-3z"/></svg>
+`,ca=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 16H3L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="0.75" fill="currentColor" stroke="none"/></svg>
+`,la=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.7 7.2 18.9l.9-5.4L4.2 9.7l5.4-.8L12 4z"/></svg>
+`,ua=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h16v10H4z"/><path d="M4 10l1.5-5h13L20 10"/><path d="M9 20v-5h6v5"/></svg>
+`,da=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg>
+`,fa=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 5L4 11.5l6 1.8L18 8l-6.2 7.4 5.7 2.6L20 5z"/></svg>
+`,pa=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h14M9 7V5h6v2M8 7l.8 12h6.4L16 7"/></svg>
+`,ma=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8H3v4"/><path d="M4 12a8 8 0 1 0 2.2-5.6"/></svg>
+`,ha=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="8" r="3"/><path d="M4.8 19c.7-3.1 2.6-4.7 5.2-4.7 1.1 0 2.1.3 2.9.8"/><circle cx="17.2" cy="16.2" r="3.2"/><path d="M15 18.4l4.4-4.4"/></svg>
+`,ga=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="2.6"/><circle cx="16" cy="9.5" r="2.2"/><path d="M4.5 18c.7-3 2.6-4.5 4.5-4.5s3.8 1.5 4.5 4.5M14 13.6c1.6 0 3.2 1.2 3.8 3.4"/></svg>
+`,_a=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M8.5 12.2l2.4 2.4 4.6-5"/></svg>
+`,va=`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7" width="17" height="12" rx="2"/><path d="M3.5 11h17"/><circle cx="16.5" cy="15" r="1"/></svg>
+`,ya=[`innerHTML`],Q=P(w({__name:`BaseIcon`,props:{name:{},size:{}},setup(e){let t=Object.assign({"../../assets/images/icons/alert.svg":di,"../../assets/images/icons/attach.svg":fi,"../../assets/images/icons/beach.svg":pi,"../../assets/images/icons/bell.svg":mi,"../../assets/images/icons/bone.svg":hi,"../../assets/images/icons/calendar.svg":gi,"../../assets/images/icons/camera.svg":_i,"../../assets/images/icons/card.svg":vi,"../../assets/images/icons/cat.svg":yi,"../../assets/images/icons/chats.svg":bi,"../../assets/images/icons/check.svg":xi,"../../assets/images/icons/chevron-down.svg":Si,"../../assets/images/icons/chevron-left.svg":Ci,"../../assets/images/icons/chevron-right.svg":wi,"../../assets/images/icons/clock.svg":Ti,"../../assets/images/icons/close.svg":Ei,"../../assets/images/icons/coffee.svg":Di,"../../assets/images/icons/crown.svg":Oi,"../../assets/images/icons/edit.svg":ki,"../../assets/images/icons/eye-off.svg":Ai,"../../assets/images/icons/eye.svg":ji,"../../assets/images/icons/filters.svg":Mi,"../../assets/images/icons/flag.svg":Ni,"../../assets/images/icons/gender-female.svg":Pi,"../../assets/images/icons/gender-male.svg":Fi,"../../assets/images/icons/gps.svg":Ii,"../../assets/images/icons/grid.svg":Li,"../../assets/images/icons/heart.svg":Ri,"../../assets/images/icons/help.svg":zi,"../../assets/images/icons/home.svg":Bi,"../../assets/images/icons/hospital.svg":Vi,"../../assets/images/icons/hotel.svg":Hi,"../../assets/images/icons/image.svg":Ui,"../../assets/images/icons/info.svg":Wi,"../../assets/images/icons/lock.svg":Gi,"../../assets/images/icons/logout.svg":Ki,"../../assets/images/icons/mail.svg":qi,"../../assets/images/icons/medal.svg":Ji,"../../assets/images/icons/more.svg":Yi,"../../assets/images/icons/paw.svg":Xi,"../../assets/images/icons/pin.svg":Zi,"../../assets/images/icons/plus.svg":Qi,"../../assets/images/icons/profile.svg":$i,"../../assets/images/icons/refresh.svg":ea,"../../assets/images/icons/ruler.svg":ta,"../../assets/images/icons/scissors.svg":na,"../../assets/images/icons/search.svg":ra,"../../assets/images/icons/security.svg":ia,"../../assets/images/icons/send.svg":aa,"../../assets/images/icons/settings.svg":oa,"../../assets/images/icons/shield.svg":sa,"../../assets/images/icons/sos.svg":ca,"../../assets/images/icons/star.svg":la,"../../assets/images/icons/store.svg":ua,"../../assets/images/icons/target.svg":da,"../../assets/images/icons/telegram.svg":fa,"../../assets/images/icons/trash.svg":pa,"../../assets/images/icons/undo.svg":ma,"../../assets/images/icons/user-block.svg":ha,"../../assets/images/icons/users.svg":ga,"../../assets/images/icons/verified.svg":_a,"../../assets/images/icons/wallet.svg":va}),n={};for(let[e,r]of Object.entries(t)){let t=(e.split(`/`).pop()??``).replace(/\.svg$/,``);n[t]=r}return(t,r)=>(g(),C(`span`,{class:`icon`,style:oe({width:`${e.size??22}px`,height:`${e.size??22}px`}),innerHTML:n[e.name]??``,"aria-hidden":`true`},null,12,ya))}}),[[`__scopeId`,`data-v-da0842b7`]]),ba=`data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20185.4%20168.6'%20role='img'%20aria-label='ЛоваЛапки'%3e%3cellipse%20fill='%23010202'%20cx='65.1'%20cy='33.6'%20rx='20.2'%20ry='30.1'/%3e%3cellipse%20fill='%23010202'%20cx='20.2'%20cy='74.3'%20rx='20.2'%20ry='30.1'/%3e%3cellipse%20fill='%23010202'%20cx='118.5'%20cy='30.1'%20rx='20.2'%20ry='30.1'/%3e%3cellipse%20fill='%23010202'%20cx='165.3'%20cy='73.9'%20rx='20.2'%20ry='30.1'/%3e%3cpath%20fill='%23010202'%20d='M121.2,88.1c-8.2-5.8-14.3-12.4-29.1-12.4c-13.1,0-26.4,10.7-31,14.6c-15.3,14.1-27.1,25.8-26.4,42.4c0.8,19.6,14.9,35.5,33.3,35.5c9.9,0,18.7-4.6,24.8-11.8c6.1,7.5,15.1,12.2,25.1,12.2c18.4,0,32.5-15.9,33.3-35.5C152,117.7,140.5,104.2,121.2,88.1z'/%3e%3cpath%20fill='%23E62A32'%20d='M108.7,97.6c-6.2,0-11.7,3.1-15.2,7.9c-3.4-5.4-9.3-7.7-15.9-7.7c-10.6,0-19.1,8.9-19.1,19.9c0,11,6.8,18.3,15.3,25.6c9.2,7.8,19.1,11.1,19.1,11.1s11-4.5,18.5-10.9c7-6,16.5-14.9,16.5-25.9C127.8,106.5,119.2,97.6,108.7,97.6z'/%3e%3c/svg%3e`,xa={class:`brand`,"aria-label":`ЛоваЛапки`},Sa=[`src`],Ca=P(w({__name:`BrandWordmark`,setup(e){return(e,t)=>(g(),C(`span`,xa,[t[0]||=S(`span`,{class:`brand__word`},`Лова`,-1),S(`img`,{class:`brand__mark`,src:_(ba),alt:``,draggable:`false`},null,8,Sa),t[1]||=S(`span`,{class:`brand__word`},`Лапки`,-1)]))}}),[[`__scopeId`,`data-v-3d27a5cf`]]),wa=t(null),Ta=t(null);function Ea(){async function e(){Ta.value=await we.get(`/auth/me`),wa.value=await we.get(`/api/v1/users/me`)}return{me:wa,auth:Ta,load:e,unreadTotal:N(()=>Ce())}}var Da=t(!1);function Oa(){function e(){Da.value=!0}function t(){Da.value=!1}return{open:Da,openSheet:e,closeSheet:t}}var ka={class:`header`},Aa={class:`header__side header__side--left`},ja={class:`header__side header__side--right`},Ma={class:`header__icon`},Na={key:0,class:`header__dot`,"aria-hidden":`true`},Pa=P(w({__name:`AppHeader`,props:{back:{type:Boolean}},setup(e){let r=Tn(),i=En(),{me:o,load:s}=Ea(),{openSheet:c}=Oa(),l=t(0),u=N(()=>l.value>0),d=N(()=>i.path===`/dating`);async function f(){try{let e=await we.get(`/api/v1/notifications/me`);l.value=e.notifications.filter(e=>!e.read).length}catch{l.value=0}}return n(()=>{s(),f()}),m(()=>i.fullPath,()=>{f()}),(t,n)=>{let i=D(`RouterLink`);return g(),C(`header`,ka,[S(`div`,Aa,[e.back?(g(),C(`button`,{key:0,class:`header__btn`,type:`button`,"aria-label":`Назад`,onClick:n[0]||=e=>_(r).back()},[T(Q,{name:`chevron-left`,size:26})])):d.value?(g(),C(`button`,{key:1,class:`header__btn`,type:`button`,"aria-label":`Фильтры`,title:`Фильтры`,onClick:n[1]||=(...e)=>_(c)&&_(c)(...e)},[T(Q,{name:`filters`,size:26})])):(g(),O(i,{key:2,class:`header__btn header__btn--avatar`,to:`/profile`,"aria-label":`Профиль`,title:`Профиль`},{default:a(()=>[T(ui,{"media-id":_(o)?.photo_ref,name:_(o)?.first_name,size:32},null,8,[`media-id`,`name`])]),_:1}))]),T(Ca,{class:`header__logo`}),S(`div`,ja,[p(t.$slots,`default`,{},void 0,!0),T(i,{class:`header__btn`,to:`/profile/notifications`,"aria-label":`Уведомления`,title:u.value?`Новых: ${l.value}`:`Уведомления`},{default:a(()=>[S(`span`,Ma,[T(Q,{name:`bell`,size:26}),u.value?(g(),C(`span`,Na)):F(``,!0)])]),_:1},8,[`title`])])])}}}),[[`__scopeId`,`data-v-417f69b5`]]),Fa={class:`tabbar`,"aria-label":`Основное меню`},Ia={class:`tab__icon`},La={key:0,class:`tab__badge`},Ra=P(w({__name:`AppTabBar`,setup(e){let t=En(),{unreadTotal:n}=Ea(),i=[{to:`/dating`,icon:`paw`,label:`Знакомства`},{to:`/chats`,icon:`chats`,label:`Чаты`,badge:!0},{to:`/sos`,icon:`sos`,label:`SOS`},{to:`/nearby`,icon:`pin`,label:`Карта`},{to:`/profile`,icon:`profile`,label:`Профиль`}];function o(e){return t.path===e||t.path.startsWith(`${e}/`)}let s=N(()=>n.value);return(e,t)=>{let n=D(`RouterLink`);return g(),C(`nav`,Fa,[(g(),C(E,null,r(i,e=>T(n,{key:e.to,to:e.to,class:he([`tab`,{"tab--on":o(e.to)}])},{default:a(()=>[S(`span`,Ia,[T(Q,{name:e.icon,size:22},null,8,[`name`]),e.badge&&s.value?(g(),C(`span`,La,k(s.value>9?`9+`:s.value),1)):F(``,!0)]),S(`span`,null,k(e.label),1)]),_:2},1032,[`to`,`class`])),64))])}}}),[[`__scopeId`,`data-v-5b479d89`]]);function za(e){return e<=480?`mobile`:e<=767?`tablet`:e<=1199?`notebook`:`desktop`}var Ba=t(typeof window>`u`?390:window.innerWidth),Va=N(()=>za(Ba.value));function Ha(e){let t=document.body;for(let n of[`mobile`,`tablet`,`notebook`,`desktop`])t.classList.toggle(`screen-${n}`,n===e)}function Ua(){function e(){Ba.value=window.innerWidth,Ha(Va.value)}function t(){Ha(Va.value),window.addEventListener(`resize`,e)}return{width:Ba,factor:Va,bind:t,isCompact:N(()=>Va.value===`mobile`||Va.value===`tablet`)}}var Wa=[{slug:`privacy-policy`,title:`Политика конфиденциальности`,body:`# Политика конфиденциальности
+
+**Сервис:** LovaLapki  
+**Оператор:** \`[НАИМЕНОВАНИЕ ООО]\` (далее — Оператор). Реквизиты — в [requisites](requisites.md).  
+**Версия:** \`[ДД.ММ.ГГГГ]\`
+
+Настоящая Политика описывает, как Оператор относится к конфиденциальности пользователей сервисов на доменах \`lovalapki.ru\`, \`web.lovalapki.ru\` и связанных поддоменах Auth/API (далее — Сервис). Детальный порядок обработки персональных данных — в [Политике обработки ПД](personal-data.md); согласие субъекта — в [personal-data-consent](personal-data-consent.md); Cookie — в [cookie-policy](cookie-policy.md).
+
+## 1. Общие положения
+
+1.1. Сервис предназначен для лиц **18 лет и старше**, проживающих / находящихся в Российской Федерации.  
+1.2. Используя Сервис, Пользователь подтверждает ознакомление с настоящей Политикой.  
+1.3. Оператор стремится защищать данные Пользователей и не передавать их третьим лицам без оснований, предусмотренных законом или договором.
+
+## 2. Какие сведения мы обрабатываем
+
+В том числе:
+
+- данные профиля человека и питомца (ФИО, дата рождения, пол, фото, город, интересы, цель знакомства и др.);
+- предпочтения по полу для матчинга — **только** при отдельном согласии (см. [personal-data-consent](personal-data-consent.md));
+- данные авторизации через IdP (Яндекс ID, VK ID, Сбер ID, T-ID, Госуслуги);
+- подтверждённый адрес электронной почты (российские почтовые сервисы);
+- геолокация устройства (с разрешения ОС; можно отключить в настройках); другим Пользователям — расстояние/район, не точные координаты дома;
+- сообщения в чатах после Match, жалобы, логи безопасности сессий;
+- технические данные (IP, User-Agent, Cookie, идентификаторы устройств в объёме, необходимом для безопасности и антифрода);
+- сведения об оплате подписки (статусы/токены у ЮKassa; реквизиты карт Оператор не хранит).
+
+## 3. Для чего используются сведения
+
+- предоставление функций знакомств, поиска, чатов, прогулок, потеряшек, личного кабинета;
+- безопасность, модерация, предотвращение мошенничества и злоупотреблений;
+- исполнение договоров (подписка), исполнение требований закона (в т.ч. при статусе ОРИ — хранение переписки);
+- сервисные уведомления по настройкам Пользователя (рекламных рассылок Сервис не ведёт).
+
+## 4. Передача и поручение обработки
+
+Оператор может привлекать подрядчиков (хостинг, S3, карты 2ГИС MapGL, ЮKassa, боты Telegram / Max, аналитика Яндекс Метрика / VK Пиксель, сервисы проверки медиа и др.) на основании договоров / поручений с обязанностями по защите данных. Первичный сбор и хранение ПДн граждан РФ — на территории РФ.
+
+## 5. Хранение и удаление
+
+Срок хранения определяется целями обработки, договором и законом (в т.ч. требования к ОРИ для чатов — при применимости). Удаление профиля: запрос в ЛК → период **7 дней** на отмену → удаление данных из рабочей БД и объектного хранилища; в бэкапах — по политике вычищения/TTL.
+
+## 6. Права Пользователя
+
+Пользователь вправе запрашивать сведения об обработке, уточнять данные, отзывать согласия (в объёме, не препятствующем исполнению закона/договора), требовать удаления (с учётом законных оснований хранения), обращаться к Оператору и в Роскомнадзор.
+
+Контакт по ПДн: \`[EMAIL_PDN]\`.
+
+## 7. Безопасность
+
+Оператор применяет организационные и технические меры: разграничение доступа, шифрование чувствительных полей и каналов, модерация, журналирование. Полное end-to-end шифрование чатов не применяется при необходимости хранения/выдачи переписки по закону.
+
+## 8. Изменения
+
+Актуальная версия публикуется в Сервисе. Существенные изменения могут сопровождаться уведомлением в интерфейсе.
+
+## 9. Связанные документы
+
+[Политика обработки ПД](personal-data.md) · [Согласие на ПД](personal-data-consent.md) · [Пользовательское соглашение](terms.md) · [Cookie](cookie-policy.md) · [Реквизиты](requisites.md)
+`,icon:`shield`},{slug:`personal-data`,title:`Обработка персональных данных`,body:`# Политика обработки персональных данных
+
+**Оператор:** \`[НАИМЕНОВАНИЕ ООО]\`. Реквизиты — [requisites](requisites.md).  
+**Версия:** \`[ДД.ММ.ГГГГ]\`  
+**Основание:** Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных» и иные НПА РФ.
+
+Настоящая Политика определяет принципы, цели, состав, условия и способы обработки персональных данных (ПДн) в сервисе LovaLapki. Общие сведения о конфиденциальности — в [privacy-policy](privacy-policy.md).
+
+## 1. Оператор и субъекты
+
+1.1. Оператор обрабатывает ПДн пользователей Сервиса (субъектов ПДн) — физических лиц 18+, использующих Portal (\`lovalapki.ru\`), Dating (\`web.lovalapki.ru\`) и связанные сервисы авторизации.  
+1.2. До начала обработки Оператор направляет уведомление в Роскомнадзор в установленном порядке (если применимо и не освобождён от обязанности).
+
+## 2. Принципы
+
+Законность, справедливость, ограничение обработки заранее определёнными целями, соответствие объёма целям, точность, ограниченность сроков хранения, безопасность, локализация первичных баз граждан РФ на территории РФ (с 01.07.2025).
+
+## 3. Цели обработки
+
+| Цель | Примеры данных |
+| --- | --- |
+| Регистрация и аутентификация | идентификаторы IdP, сессии, подтверждённый e-mail |
+| Профиль и матчинг | ФИО, дата рождения, пол, фото, город, интересы, цель знакомства, данные питомцев |
+| Матчинг по предпочтениям | предпочтения по полу — **спец. категория**, только при отдельном согласии |
+| Геопоиск / «Рядом» | координаты (краткий TTL), район/расстояние |
+| Чаты и прогулки | текст сообщений, метаданные, участники прогулок |
+| Модерация и безопасность | жалобы, логи, отпечатки устройства (антифрод), хэши медиа |
+| Подписка | статусы платежей ЮKassa, история подписки (без хранения PAN карты) |
+| Исполнение закона | данные, подлежащие хранению/выдаче (в т.ч. при ОРИ) |
+| Сервисные уведомления | токены/привязки ботов Telegram, Max — по настройкам |
+
+Рекламных рассылок Оператор не осуществляет.
+
+## 4. Правовые основания
+
+- согласие субъекта (ст. 6, ст. 9, для спец. категорий — ст. 10 152-ФЗ);
+- договор (публичная оферта / пользовательское соглашение, подписка);
+- исполнение обязанностей Оператора по закону;
+- защита прав и законных интересов Оператора и третьих лиц (безопасность, модерация) — в пределах закона.
+
+## 5. Специальные категории ПДн
+
+Поле «предпочтения по полу» и аналогичные сведения для алгоритма знакомств могут относиться к сведениям об интимной жизни. Обработка — **только** при отдельном явном согласии субъекта ([personal-data-consent](personal-data-consent.md)), доступ ограничен модулем матчинга; отзыв согласия прекращает обработку в этой части (матчинг по данному признаку отключается).
+
+## 6. Способы и действия
+
+Сбор, запись, систематизация, накопление, хранение, уточнение, извлечение, использование, передача (предоставление, доступ), обезличивание, блокирование, удаление, уничтожение. Автоматизированная и неавтоматизированная обработка. Передача трансграничная — только при соблюдении требований 152-ФЗ и разрешений РКН при необходимости.
+
+## 7. Поручение обработки третьим лицам
+
+Поручение на основании договора: хостинг (Timeweb Cloud и др. в РФ), объектное хранилище (Рег.облако S3), 2ГИС MapGL, ЮKassa, мессенджер-боты, аналитика (Яндекс Метрика, VK Пиксель), сервисы проверки медиа (в т.ч. CSAM-хэш при подключении) и иные по списку в договорах. Оператор отвечает за выбор и контроль поручений.
+
+## 8. Сроки хранения
+
+Определяются целью и законом. Ориентиры:
+
+- профиль — пока аккаунт активен + сроки после удаления по политике бэкапов;
+- soft-delete профиля — **7 дней** на восстановление, затем удаление из рабочих систем;
+- чаты — сроки, согласованные с режимом ОРИ (ориентир: метаданные ~1 год, содержание ~6 месяцев — уточняется с юристом до запуска чатов);
+- геоточные точки — минимальный TTL; долговременно — только огрублённые данные;
+- платёжные статусы — по требованиям бухучёта и договора с ЮKassa.
+
+## 9. Меры защиты
+
+Правовые, организационные и технические меры: разграничение доступа, MFA для Ops, шифрование чувствительных полей и каналов, журналирование, анти-IDOR, модерация медиа, playbook инцидентов (уведомление РКН: факт — 24 ч, результаты — 72 ч).
+
+## 10. Права субъекта и запросы
+
+Субъект вправе получать сведения, требовать уточнения, блокирования, уничтожения, отзывать согласие, обжаловать действия Оператора. Запросы: \`[EMAIL_PDN]\`. Срок ответа — в соответствии с 152-ФЗ.
+
+## 11. Изменения Политики
+
+Публикуется на сайте Сервиса. Продолжение использования после публикации новой версии означает ознакомление, если иное не требуется законом.
+
+Связанные документы: [privacy-policy](privacy-policy.md) · [personal-data-consent](personal-data-consent.md) · [terms](terms.md) · [requisites](requisites.md)
+`,icon:`lock`},{slug:`personal-data-consent`,title:`Согласие на обработку ПДн`,body:`# Согласие на обработку персональных данных
+
+**Оператор:** \`[НАИМЕНОВАНИЕ ООО]\` ([requisites](requisites.md)).  
+**Сервис:** LovaLapki (\`lovalapki.ru\`, \`web.lovalapki.ru\`).  
+**Версия:** \`[ДД.ММ.ГГГГ]\`
+
+Настоящее Согласие оформляется при регистрации / онбординге и (отдельно) при указании сведений, относящихся к специальным категориям ПДн. Политика обработки — [personal-data](personal-data.md).
+
+---
+
+## Часть A. Общее согласие (обязательно для использования Сервиса)
+
+Я, субъект персональных данных, достигая 18 лет,
+
+**даю согласие** Оператору на обработку моих персональных данных на условиях [Политики обработки ПД](personal-data.md), в том числе:
+
+**Состав данных:** ФИО; дата рождения; пол; фотографии; город; интересы; цель знакомства; данные о питомцах (кличка, порода, фото, характер и иные поля анкеты); адрес электронной почты (после подтверждения); идентификаторы и сведения, полученные от IdP (Яндекс ID, VK ID, Сбер ID, T-ID, Госуслуги); геолокация (при разрешении); сведения о сессиях и действиях в Сервисе; сообщения в чатах; жалобы; технические данные устройства; сведения о подписке и платежах (без хранения реквизитов банковской карты на стороне Оператора); привязки ботов уведомлений (Telegram, Max) — при моём подключении.
+
+**Цели:** предоставление функций Сервиса; аутентификация; матчинг и поиск; безопасность и модерация; исполнение договора подписки; сервисные уведомления по настройкам; исполнение требований законодательства РФ.
+
+**Действия:** сбор, запись, хранение, использование, передача поручителям обработки, удаление и иные действия по Политике.
+
+**Срок:** до достижения целей / отзыва согласия / удаления аккаунта, с учётом сроков хранения по закону (в т.ч. ОРИ).
+
+**Отзыв:** направлением заявления на \`[EMAIL_PDN]\` или через функции ЛК (где предусмотрено). Отзыв не влияет на законность обработки до отзыва и на обработку, обязательную по закону.
+
+Подтверждаю, что ознакомлен(а) с [Политикой обработки ПД](personal-data.md) и [Политикой конфиденциальности](privacy-policy.md).
+
+---
+
+## Часть B. Согласие на обработку специальных категорий ПДн (отдельный шаг)
+
+*Не входит в общий чекбокс регистрации. Запрашивается явно при заполнении соответствующих полей профиля.*
+
+Я **отдельно даю согласие** на обработку сведений о предпочтениях по полу (и аналогичных полей матчинга, которые могут относиться к сведениям об интимной жизни) в целях подбора анкет и рекомендаций в Сервисе.
+
+Доступ к таким сведениям ограничивается сервисом матчинга. Я могу отозвать это согласие; после отзыва матчинг по данному признаку прекращается.
+
+Основание: ст. 10 Федерального закона № 152-ФЗ.
+
+---
+
+## Часть C. Фиксация
+
+Согласие считается полученным в электронной форме при проставлении отметки / нажатии кнопки принятия в интерфейсе Сервиса с фиксацией даты, времени и идентификатора аккаунта / сессии.
+`,icon:`check`},{slug:`terms`,title:`Пользовательское соглашение`,body:`# Пользовательское соглашение
+
+**Сервис:** LovaLapki  
+**Администрация / Оператор:** \`[НАИМЕНОВАНИЕ ООО]\` ([requisites](requisites.md))  
+**Версия:** \`[ДД.ММ.ГГГГ]\`
+
+Настоящее Соглашение регулирует использование сайтов \`lovalapki.ru\`, \`web.lovalapki.ru\` и связанных сервисов (далее — Сервис). Соглашение является договором присоединения. Платные услуги дополнительно регулируются [офертой](offer.md), [условиями оплаты](payment.md) и [возвратом](refund.md).
+
+## 1. Предмет
+
+1.1. Администрация предоставляет Пользователю доступ к функциям знакомств для владельцев собак: профили, поиск, лайки, Match, чаты, «Рядом», прогулки, потеряшки, личный кабинет и иные функции, доступные в интерфейсе.  
+1.2. Сервис **не** является брачным агентством и **не** гарантирует знакомства, встречи или результат общения.
+
+## 2. Возраст и территория
+
+2.1. Сервис только для лиц **18+**. Регистрация несовершеннолетних запрещена.  
+2.2. Сервис предназначен для использования на территории **Российской Федерации**.  
+2.3. Жалоба на возраст влечёт немедленную временную приостановку анкеты на период проверки ([complaints](complaints.md)).
+
+## 3. Регистрация и аккаунт
+
+3.1. Вход — через IdP (Яндекс ID, VK ID, Сбер ID, T-ID, Госуслуги); телефон/SMS не используются.  
+3.2. Пользователь обязан указывать достоверные сведения, не выдавать себя за другое лицо, не загружать чужие фото без права.  
+3.3. Уровень доверия аккаунта (в т.ч. KYC через банковские/гос. IdP) может ограничивать доступ к чатам, «Рядом», созданию прогулок.  
+3.4. Пользователь несёт ответственность за сохранность доступа к своему IdP и сессиям; доступен просмотр сессий и выход со всех устройств.
+
+## 4. Правила поведения
+
+Пользователь обязан соблюдать [Правила сообщества](community-rules.md), [Запрещённый контент](prohibited-content.md) и не нарушать закон РФ. Модерация — по [Правилам модерации](moderation-rules.md).
+
+## 5. Офлайн-встречи и животные
+
+5.1. Встречи и прогулки организуются Пользователями самостоятельно. Администрация **не** контролирует офлайн-безопасность и **не** несёт ответственность за вред, причинённый на встречах, действиями Пользователей или животных.  
+5.2. Рекомендуется встречаться в людных местах и сообщать детали встречи доверенному лицу.  
+5.3. Владельцы потенциально опасных пород обязаны соблюдать требования законодательства РФ (в т.ч. намордник и поводок вне своей огороженной территории). В анкете может быть отметка о породе; напоминания в интерфейсе не снимают обязанности владельца.  
+5.4. **Не переводите деньги** малознакомым людям из чата (риск мошенничества). Администрация не запрашивает переводы «в личку» и не отвечает за переводы между Пользователями.
+
+## 6. Контент Пользователя
+
+6.1. Загружая контент, Пользователь гарантирует наличие прав и предоставляет Администрации неисключительную лицензию на использование в рамках работы Сервиса (хранение, отображение, модерация, технические преобразования, водяной знак). Подробнее — [intellectual-property](intellectual-property.md).  
+6.2. Запрещённый контент удаляется; аккаунт может быть ограничен или заблокирован.
+
+## 7. Потеряшки и партнёры
+
+7.1. Объявления о потеряшках проходят премодерацию. Запрещены фейковые объявления и сбор «вознаграждения» без реального животного.  
+7.2. Карточки партнёров / реклама: Сервис показывает информацию и может перенаправлять на сайт партнёра; бронирование и оплата услуг партнёра на старте **не** через LovaLapki. За услуги партнёра отвечает партнёр.  
+7.3. Функции петситтеров / эскроу — только при наличии отдельного T&S-режима; до его запуска Пользователь не вправе рассчитывать на гарантии платформы по таким сделкам.
+
+## 8. Платные услуги
+
+Условия подписки, автопродления, промокодов — в [payment](payment.md), [offer](offer.md), [refund](refund.md).
+
+## 9. Удаление аккаунта
+
+Через ЛК: soft-delete **7 дней** с возможностью отмены, затем удаление. Обработка ПДн — по [personal-data](personal-data.md).
+
+## 10. Ограничение ответственности
+
+Сервис предоставляется «как есть». Администрация не отвечает за перебои связи, действия третьих лиц (IdP, платёжный провайдер, партнёры), содержание сообщений Пользователей, убытки от доверия к анкетам и офлайн-встреч — в пределах, допускаемых законом РФ. Не исключается ответственность, которую нельзя ограничить по закону о защите прав потребителей и иным НПА.
+
+## 11. Изменение Соглашения
+
+Актуальная редакция публикуется в Сервисе. Продолжение использования после изменений означает согласие, если иное не требуется законом.
+
+## 12. Применимое право и споры
+
+Право РФ. Споры — переговоры, затем суд по месту нахождения Оператора, если иное не установлено императивными нормами (в т.ч. для потребителей).
+
+Контакт: \`[EMAIL]\`.
+`,icon:`info`},{slug:`community-rules`,title:`Правила сообщества`,body:`# Правила сообщества
+
+**Сервис:** LovaLapki  
+**Версия:** \`[ДД.ММ.ГГГГ]\`  
+Связано с: [terms](terms.md) · [prohibited-content](prohibited-content.md) · [moderation-rules](moderation-rules.md) · [complaints](complaints.md)
+
+Правила определяют ожидаемое поведение Пользователей. Нарушение может повлечь ограничение функций, скрытие контента или блокировку аккаунта.
+
+## 1. Уважение и безопасность
+
+1.1. Общайтесь вежливо. Запрещены оскорбления, угрозы, травля, дискриминация, преследование.  
+1.2. Не домогайтесь и не настаивайте на общении после отказа или блокировки.  
+1.3. Не распространяйте личные данные других лиц без согласия (адрес, телефон, документы, точные координаты дома и т.п.).
+
+## 2. Честность профиля
+
+2.1. Анкета и фото должны относиться к вам и вашим питомцам.  
+2.2. Запрещены катфишинг, чужие/стоковые фото без права, введение в заблуждение относительно возраста, пола, наличия собаки.  
+2.3. Отметки IdP/KYC подтверждают способ входа, а не автоматически каждое фото; отметка «фото подтверждены» — только после прохождения фото-верификации.
+
+## 3. Чаты и деньги
+
+3.1. Не просите и не вымогайте деньги, криптовалюту, реквизиты «в долг», «на лечение», «на инвестиции».  
+3.2. Не переводите деньги малознакомым из чата. Сервис предупреждает о риске romance scam.  
+3.3. Не размещайте вредоносные ссылки, фишинг, спам, рекламу сторонних услуг без разрешения Администрации.
+
+## 4. Встречи и животные
+
+4.1. Соблюдайте закон при выгуле (в т.ч. для потенциально опасных пород).  
+4.2. Не создавайте прогулки с целью травли, кражи животных или иных противоправных целей.  
+4.3. Рекомендуется людное место и сообщение о встрече доверенному лицу.
+
+## 5. Потеряшки
+
+5.1. Публикуйте только реальные объявления.  
+5.2. Запрещён сбор вознаграждения / реквизитов через фейковые объявления о пропаже.
+
+## 6. Возраст
+
+Только 18+. Подозрение на несовершеннолетнего — жалоба с категорией «возраст»; анкета приостанавливается немедленно.
+
+## 7. Технические злоупотребления
+
+Запрещены боты, скрейпинг анкет, обход блокировок (новые аккаунты с тех же фото/устройства), взлом, подбор доступов, вмешательство в работу Сервиса.
+
+## 8. Реклама
+
+Коммерческая реклама в профилях и чатах без согласия Администрации запрещена. Официальные партнёрские размещения — только через договоры с Оператором.
+`,icon:`users`},{slug:`offer`,title:`Публичная оферта`,body:`# Публичная оферта
+
+на оказание услуг платной подписки сервиса LovaLapki
+
+**Оферта:** \`[НАИМЕНОВАНИЕ ООО]\` ([requisites](requisites.md)), именуемое Исполнителем.  
+**Акцепт:** действия Пользователя по оформлению и оплате подписки в Сервисе.  
+**Версия:** \`[ДД.ММ.ГГГГ]\`
+
+Настоящий документ является официальным предложением (офертой) в смысле ст. 435, 437 ГК РФ. Акцепт оферты создаёт договор на условиях ниже, [Условий оплаты](payment.md) и [Возврата / отмены](refund.md). Общие правила пользования — [terms](terms.md).
+
+## 1. Предмет
+
+1.1. Исполнитель предоставляет Пользователю доступ к платным функциям / тарифу подписки LovaLapki на условиях, указанных в интерфейсе на момент оплаты (перечень преимуществ тарифа).  
+1.2. Бесплатный функционал Сервиса может предоставляться без оплаты; объём платных возможностей определяется интерфейсом.
+
+## 2. Акцепт
+
+Оформление подписки, ввод промокода (при наличии), подтверждение платежа через ЮKassa и/или проставление отметок о согласии с офертой и автопродлением означают акцепт.
+
+## 3. Цена и срок
+
+3.1. Стоимость и период (ежемесячная подписка) указываются в интерфейсе.  
+3.2. Пробный период **7 дней** — только по условиям активного промокода.  
+3.3. Автопродление — по [payment](payment.md) (согласие на период, предупреждение за сутки, отмена в ЛК).
+
+## 4. Порядок оказания
+
+Доступ к платным функциям активируется после подтверждения оплаты платёжным провайдером (или по условиям пробного периода). Исполнитель вправе приостановить доступ при нарушении [terms](terms.md) или неуспешном платеже.
+
+## 5. Персональные данные
+
+Обработка ПДн — по [personal-data](personal-data.md) и согласию Пользователя.
+
+## 6. Ответственность
+
+В пределах, допускаемых законом. Исполнитель не отвечает за сбои сетей связи, ЮKassa, IdP и устройств Пользователя. Споры — по праву РФ.
+
+## 7. Изменение оферты
+
+Новая редакция публикуется в Сервисе и применяется к последующим периодам оплаты, если иное не требуется законом. Существенные условия автоплатежа — с соблюдением требований о согласии на период.
+
+Контакт: \`[EMAIL]\`.
+`,icon:`card`},{slug:`payment`,title:`Условия оплаты`,body:`# Условия оплаты
+
+**Сервис:** LovaLapki  
+**Исполнитель:** \`[НАИМЕНОВАНИЕ ООО]\` ([requisites](requisites.md))  
+**Версия:** \`[ДД.ММ.ГГГГ]\`  
+Связано с: [offer](offer.md) · [refund](refund.md) · [terms](terms.md)
+
+## 1. Способ оплаты
+
+1.1. Оплата подписки принимается через платёжный сервис **ЮKassa**.  
+1.2. Данные банковских карт на серверах LovaLapki **не хранятся**; обработка платёжных реквизитов — у провайдера.  
+1.3. Могут применяться 3-D Secure и антифрод-проверки провайдера / Исполнителя (в т.ч. лимиты частоты попыток оплаты).
+
+## 2. Подписка
+
+2.1. Тариф — **ежемесячный**, если иное не указано в интерфейсе.  
+2.2. Цена, состав преимуществ и валюта (руб. РФ) отображаются до оплаты.  
+2.3. Промокод может предоставить скидку или пробный период **7 дней** по условиям кода. Фарм промокодов через мультиаккаунты запрещён; такие активации могут быть аннулированы.
+
+## 3. Автопродление (с 01.03.2026 и далее — в логике требований законодательства)
+
+3.1. Автопродление включается только при **отдельном согласии** Пользователя на списание за соответствующий период.  
+3.2. Не менее чем за **сутки** до списания Исполнитель направляет предупреждение со ссылкой на отказ от автоплатежа.  
+3.3. Пользователь может в любое время в личном кабинете: отключить автопродление; отвязать (отозвать) сохранённый способ оплаты у провайдера в пределах доступного UX.  
+3.4. Списание очередного периода без согласия Пользователя технически и организационно не допускается.
+
+## 4. Момент оплаты
+
+Обязательство Пользователя по оплате считается исполненным при получении Исполнителем подтверждения успешного платежа от ЮKassa (идемпотентная обработка вебхуков).
+
+## 5. Документы
+
+Электронные чеки / подтверждения формируются в порядке, установленном законодательством о применении ККТ и договором с платёжным провайдером (уточняется при подключении).
+
+## 6. Неуспешные платежи
+
+При отказе банка / 3-D Secure / антифрода доступ к платному периоду не активируется либо не продлевается. Повторные попытки могут ограничиваться.
+
+Контакт по оплате: \`[EMAIL]\`.
+`,icon:`wallet`},{slug:`refund`,title:`Возврат и отмена`,body:`# Возврат / отмена
+
+**Сервис:** LovaLapki  
+**Исполнитель:** \`[НАИМЕНОВАНИЕ ООО]\` ([requisites](requisites.md))  
+**Версия:** \`[ДД.ММ.ГГГГ]\`  
+Связано с: [payment](payment.md) · [offer](offer.md) · [terms](terms.md)
+
+## 1. Отмена автопродления
+
+1.1. Отмена автопродления в ЛК прекращает **следующие** списания.  
+1.2. Уже оплаченный текущий период, как правило, действует до его окончания; досрочный возврат средств за неиспользованные дни — по п. 2–3 ниже и императивным нормам закона о защите прав потребителей (если применимы).
+
+## 2. Отказ от услуги
+
+2.1. Пользователь вправе отказаться от платной услуги в порядке ст. 32 Закона РФ «О защите прав потребителей» и ГК РФ — с оплатой фактически понесённых Исполнителем расходов (если применимо) / пропорциональным пересчётом — **формулировка окончательно согласуется с юристом** под выбранную модель подписки (цифровая услуга / лицензионный доступ).  
+2.2. Заявление на возврат: \`[EMAIL]\` с указанием логина/IdP, даты платежа, суммы, причины.
+
+## 3. Случаи возврата по инициативе Исполнителя
+
+Исполнитель возвращает оплату (полностью или частично), если:
+
+- платёж списан ошибочно / повторно по техническому сбою;
+- платный доступ не был предоставлен по вине Исполнителя в существенный срок;
+- промокод/тариф применён некорректно по вине Исполнителя;
+- иное — по решению Исполнителя или требованию закона / платёжного провайдера (chargeback).
+
+## 4. Отказ в возврате (типовые случаи)
+
+- Пользователь использовал платные функции в полном или существенном объёме в течение оплаченного периода — если иное не требует закон;
+- нарушение Пользователем [terms](terms.md) с блокировкой аккаунта (возврат — по усмотрению Исполнителя / закону);
+- злоупотребление промокодами и фрод.
+
+## 5. Срок и способ возврата
+
+Возврат осуществляется тем же способом оплаты через ЮKassa в сроки провайдера и банка (ориентир — до \`[N]\` банковских дней после одобрения заявления). Исполнитель уведомляет о решении на контактный e-mail / в ЛК.
+
+## 6. Пробный период
+
+При пробном периоде по промокоду плата может не взиматься до его окончания; дальнейшее списание — только при согласии на автопродление и предупреждении за сутки ([payment](payment.md)).
+`,icon:`undo`},{slug:`cookie-policy`,title:`Политика Cookie`,body:`# Политика Cookie
+
+**Оператор:** \`[НАИМЕНОВАНИЕ ООО]\` ([requisites](requisites.md))  
+**Версия:** \`[ДД.ММ.ГГГГ]\`
+
+Настоящая Политика описывает использование файлов cookie и сходных технологий на сайтах LovaLapki. Согласие на необязательные cookie — [cookie-consent](cookie-consent.md). Обработка ПДн — [personal-data](personal-data.md).
+
+## 1. Что такое cookie
+
+Cookie — небольшие данные, сохраняемые браузером. Могут использоваться также local storage, session storage и аналогичные механизмы.
+
+## 2. Какие cookie применяются
+
+| Категория | Назначение | Пример |
+| --- | --- | --- |
+| Строго необходимые | Авторизация, сессия, безопасность, балансировка, запоминание согласия | сессионные cookie Auth (HttpOnly, Secure, SameSite) на зоне \`.lovalapki.ru\` |
+| Функциональные | Настройки интерфейса, язык, выбор города | по мере внедрения |
+| Аналитические | Понимание нагрузки и поведения (агрегировано) | Яндекс Метрика, VK Пиксель — при подключении |
+| Маркетинговые | На старте **не** используются для рекламных рассылок; при появлении — только с согласия | — |
+
+## 3. Срок хранения
+
+Сессионные — до закрытия браузера / отзыва сессии. Длительные — по политике конкретного инструмента (указывается в настройках согласия при внедрении).
+
+## 4. Управление
+
+Пользователь может ограничить cookie в настройках браузера; отключение строго необходимых может сделать вход и Сервис недоступными. Отзыв согласия на необязательные cookie — через баннер/настройки Cookie и/или инструменты аналитики.
+
+## 5. Третьи стороны
+
+Аналитика и виджеты третьих лиц могут устанавливать собственные cookie согласно их политикам. Список актуальных подрядчиков уточняется в интерфейсе согласия и договорах поручения.
+
+## 6. Контакт
+
+\`[EMAIL_PDN]\`
+`,icon:`settings`},{slug:`complaints`,title:`Порядок подачи жалоб`,body:`# Порядок подачи жалоб
+
+**Сервис:** LovaLapki  
+**Версия:** \`[ДД.ММ.ГГГГ]\`  
+Связано с: [moderation-rules](moderation-rules.md) · [community-rules](community-rules.md) · [terms](terms.md)
+
+## 1. Кто может жаловаться
+
+Зарегистрированный Пользователь — на профиль, сообщение, прогулку, участника прогулки, объявление потеряшки. Иные обращения (в т.ч. правообладателей) — на \`[EMAIL]\` / через форму поддержки.
+
+## 2. Как подать
+
+2.1. В интерфейсе: кнопка «Пожаловаться» у объекта (профиль, сообщение, прогулка, объявление).  
+2.2. Укажите категорию и краткое описание; при необходимости — скриншоты.  
+2.3. Ложные жалобы и злоупотребление механизмом могут повлечь ограничения для заявителя.
+
+## 3. Категории (в том числе)
+
+| Категория | Примечание |
+| --- | --- |
+| Запрещённый контент | см. [prohibited-content](prohibited-content.md) |
+| Возраст (младше 18) | анкета **сразу** временно скрывается |
+| Просит деньги / подозрение на мошенничество | приоритетный SLA |
+| Оскорбления, угрозы, преследование | |
+| Спам / реклама / ссылки | |
+| Фейковый профиль / чужие фото | |
+| Потеряшки: похоже на сбор денег без реального животного | |
+| Иное | свободное описание |
+
+## 4. Рассмотрение
+
+Жалобы обрабатывает Ops по [Правилам модерации](moderation-rules.md). По итогам: отклонение; удаление контента; временная или постоянная блокировка; запрос уточнений. Заявителю может направляться статус (без раскрытия избыточных ПДн нарушителя).
+
+## 5. Блокировка Пользователем
+
+Независимо от жалобы Пользователь может **заблокировать** другого: тот попадает в чёрный список и не показывается в рекомендациях / не может продолжать нежелательный контакт в рамках функций Сервиса.
+
+## 6. Апелляция
+
+Оспаривание меры — через поддержку с указанием номера решения / даты блокировки. Решение по апелляции окончательно в рамках Сервиса; это не ограничивает обращение в госорганы.
+
+## 7. Сроки (ориентиры)
+
+Публикуются/уточняются в поддержке. Приоритет P0/P1 рассматривается вне общей очереди. Жалоба на возраст влечёт немедленную техническую приостановку видимости до проверки.
+`,icon:`flag`},{slug:`requisites`,title:`Реквизиты`,body:"# Реквизиты\n\nОператор сервиса **LovaLapki** (сайты [lovalapki.ru](https://lovalapki.ru), [web.lovalapki.ru](https://web.lovalapki.ru)).\n\n| Поле | Значение |\n| --- | --- |\n| Полное наименование | `[НАИМЕНОВАНИЕ ООО]` |\n| Сокращённое наименование | `[ООО «…»]` |\n| ОГРН | `[ОГРН]` |\n| ИНН / КПП | `[ИНН]` / `[КПП]` |\n| Юридический адрес | `[АДРЕС]` |\n| Фактический / почтовый адрес | `[АДРЕС]` |\n| Банк | `[БАНК]` |\n| БИК | `[БИК]` |\n| Р/с | `[Р/С]` |\n| К/с | `[К/С]` |\n| E-mail для обращений | `[EMAIL]` |\n| E-mail по персональным данным | `[EMAIL_PDN]` |\n| Телефон | `[ТЕЛЕФОН]` |\n| Сайт | https://lovalapki.ru |\n| Приложение знакомств | https://web.lovalapki.ru |\n\nПлатёжный агент: **ЮKassa** (ООО «ЮMoney» / актуальные реквизиты провайдера на момент договора). Данные платёжных карт на стороне LovaLapki не хранятся.\n\nДата публикации реквизитов: `[ДД.ММ.ГГГГ]`.\n",icon:`mail`}];function Ga(e){return Wa.find(t=>t.slug===e)}var Ka={key:0,class:`side`},qa={class:`side__brand`},Ja={key:0,class:`side__badge`},Ya={class:`frame`},Xa={key:0,class:`page-title`},Za=P(w({__name:`AppShell`,setup(e){let t=En(),{isCompact:n}=Ua(),{unreadTotal:i}=Ea(),o=N(()=>!!t.meta.hideChrome),s=N(()=>{if(typeof t.meta.title==`string`)return t.meta.title;if(t.path.startsWith(`/legal/`))return Ga(String(t.params.slug??``))?.title}),c=N(()=>!!t.meta.back),l=N(()=>!!t.meta.flushTop),u=[{to:`/dating`,icon:`paw`,label:`Знакомства`},{to:`/chats`,icon:`chats`,label:`Чаты`},{to:`/sos`,icon:`sos`,label:`SOS`},{to:`/nearby`,icon:`pin`,label:`Карта`},{to:`/profile`,icon:`profile`,label:`Профиль`}];return(e,d)=>{let f=D(`RouterLink`),p=D(`RouterView`);return g(),C(`div`,{class:he([`shell`,{"shell--wide":!_(n)}])},[_(n)?F(``,!0):(g(),C(`aside`,Ka,[S(`div`,qa,[T(Ca)]),(g(),C(E,null,r(u,e=>T(f,{key:e.to,to:e.to,class:he([`side__link`,{"side__link--on":_(t).path===e.to||_(t).path.startsWith(e.to+`/`)}])},{default:a(()=>[T(Q,{name:e.icon},null,8,[`name`]),S(`span`,null,k(e.label),1),e.to===`/chats`&&_(i)?(g(),C(`span`,Ja,k(_(i)),1)):F(``,!0)]),_:2},1032,[`to`,`class`])),64))])),S(`div`,Ya,[o.value?F(``,!0):(g(),O(Pa,{key:0,back:c.value},null,8,[`back`])),S(`main`,{class:he([`main`,{"main--flush":l.value}])},[s.value?(g(),C(`h1`,Xa,k(s.value),1)):F(``,!0),T(p)],2),_(n)&&!o.value&&!_(t).meta.hideTabbar?(g(),O(Ra,{key:1})):F(``,!0)])],2)}}}),[[`__scopeId`,`data-v-d6d5beee`]]),Qa=t([]),$a=1;function eo(){function e(e,n=`info`,r=2800){let i=$a++;Qa.value=[...Qa.value,{id:i,kind:n,text:e}],window.setTimeout(()=>t(i),r)}function t(e){Qa.value=Qa.value.filter(t=>t.id!==e)}return{items:Qa,show:e,dismiss:t}}var to={class:`toasts`,"aria-live":`polite`},no=[`onClick`],ro=P(w({__name:`BaseToastHost`,setup(e){let{items:t,dismiss:n}=eo();return(e,i)=>(g(),O(b,{to:`body`},[S(`div`,to,[T(Dt,{name:`toast`},{default:a(()=>[(g(!0),C(E,null,r(_(t),e=>(g(),C(`button`,{key:e.id,class:he([`toast`,`toast--${e.kind}`]),type:`button`,onClick:t=>_(n)(e.id)},k(e.text),11,no))),128))]),_:1})])]))}}),[[`__scopeId`,`data-v-c74913ba`]]),io=w({__name:`App`,setup(e){return(e,t)=>(g(),C(E,null,[T(Za),T(ro)],64))}}),ao=`modulepreload`,oo=function(e){return`/gulyaka_public/`+e},so={},$=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=oo(t,n),t=s(t),t in so)return;so[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:ao,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}).filter(e=>e!==void 0))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},co=ai({history:Dr(`/gulyaka_public/`),routes:[{path:`/`,redirect:`/dating`},{path:`/dating`,component:()=>$(()=>import(`./DatingView-DlZsBeje.js`),__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]))},{path:`/chats`,component:()=>$(()=>import(`./ChatsView-VpYxhaXZ.js`),__vite__mapDeps([22,1,2,23,10,11,12,13,14,15,24]))},{path:`/chats/:threadId`,component:()=>$(()=>import(`./ChatThreadView-DBpZDlZV.js`),__vite__mapDeps([25,1,2,23,3,4,5,6,7,8,26,9,27,28])),meta:{back:!0,hideTabbar:!0}},{path:`/sos`,component:()=>$(()=>import(`./SosView-JJ8TZkME.js`),__vite__mapDeps([29,1,2,3,4,7,8,12,13,14,15,30]))},{path:`/sos/active`,redirect:`/sos`},{path:`/nearby`,component:()=>$(()=>import(`./NearbyView-CdNWMYdc.js`),__vite__mapDeps([31,1,2,3,4,9,10,11,12,13,16,17,19,20,32,33]))},{path:`/profile`,component:()=>$(()=>import(`./ProfileView-w8MoDH9s.js`),__vite__mapDeps([34,1,2,9,10,11,16,17,32,35])),meta:{flushTop:!0}},{path:`/profile/data`,component:()=>$(()=>import(`./MyDataView-73LT2cEd.js`),__vite__mapDeps([36,1,2,3,4,7,8,9,19,20,32,37])),meta:{title:`Мои данные`,back:!0}},{path:`/profile/pets`,component:()=>$(()=>import(`./PetsView-C0Qjpt8v.js`),__vite__mapDeps([38,1,2,3,4,12,13,18,39])),meta:{title:`Питомцы`,back:!0}},{path:`/profile/pets/new`,component:()=>$(()=>import(`./PetEditView-BlbZgIjH.js`),__vite__mapDeps([40,1,2,3,4,7,8,18,19,20,41])),meta:{title:`Новый питомец`,back:!0}},{path:`/profile/pets/:id`,component:()=>$(()=>import(`./PetView-Czh0vGQP.js`),__vite__mapDeps([42,1,2,3,4,9,16,17,18,43])),meta:{back:!0}},{path:`/profile/pets/:id/edit`,component:()=>$(()=>import(`./PetEditView-BlbZgIjH.js`),__vite__mapDeps([40,1,2,3,4,7,8,18,19,20,41])),meta:{title:`Редактирование`,back:!0}},{path:`/profile/visibility`,component:()=>$(()=>import(`./PrivacyView-DQInVhkp.js`),__vite__mapDeps([44,1,2,3,4,19,20,45,46,47])),meta:{title:`Конфиденциальность`,back:!0}},{path:`/profile/notifications`,component:()=>$(()=>import(`./NotificationsView-BE0cmft5.js`),__vite__mapDeps([48,1,2,23,3,4,12,13,45,46,49])),meta:{title:`Уведомления`,back:!0}},{path:`/profile/sessions`,component:()=>$(()=>import(`./SecurityView-CXii9swi.js`),__vite__mapDeps([50,1,2,23,3,4,51])),meta:{title:`Безопасность`,back:!0}},{path:`/profile/blocks`,component:()=>$(()=>import(`./BlocksView-N1SGvh69.js`),__vite__mapDeps([52,1,2,23,3,4,12,13,53])),meta:{title:`Чёрный список`,back:!0}},{path:`/profile/walks`,component:()=>$(()=>import(`./WalksView-C53UVfyB.js`),__vite__mapDeps([54,1,2,23,3,4,12,13,55])),meta:{title:`Прогулки`,back:!0}},{path:`/profile/walks/new`,component:()=>$(()=>import(`./WalkCreateView-DoIefc7K.js`),__vite__mapDeps([56,1,2,3,4,7,8,57])),meta:{title:`Новая прогулка`,back:!0}},{path:`/profile/walks/:id`,component:()=>$(()=>import(`./WalkView-Df47U_tE.js`),__vite__mapDeps([58,1,2,23,3,4,26,5,6,7,8,9,27,59])),meta:{title:`Прогулка`,back:!0}},{path:`/profile/billing`,component:()=>$(()=>import(`./SubscriptionView-BhhgdIno.js`),__vite__mapDeps([60,1,2,23,3,4,7,8,61])),meta:{title:`Подписка`,back:!0}},{path:`/legal/:slug`,component:()=>$(()=>import(`./LegalDocView-AUh26JG2.js`),__vite__mapDeps([62,1,12,13,63])),meta:{back:!0,hideTabbar:!0}},{path:`/users/:id`,component:()=>$(()=>import(`./PublicProfileView-D1WmQdMG.js`),__vite__mapDeps([64,1,2,3,4,9,26,5,6,7,8,27,10,11,12,13,16,17,65])),meta:{back:!0,flushTop:!0}}],scrollBehavior(){return{top:0}}}),lo=qt(io);lo.use(dn()),lo.use(co);var{bind:uo}=Ua();uo(),lo.mount(`#app`);export{Ea as a,si as c,Tn as d,Ie as f,Ut as h,Oa as i,Zr as l,Rt as m,Wa as n,Q as o,zt as p,Ga as r,ui as s,eo as t,En as u};
