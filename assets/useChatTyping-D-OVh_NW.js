@@ -1,0 +1,1 @@
+import{B as e}from"./_plugin-vue_export-helper-DE889oWo.js";var t=e({});function n(){function e(e,n){n?t[e]=!0:delete t[e]}function n(e){return!!t[e]}return{typingByThread:t,setTyping:e,isTyping:n}}export{n as t};

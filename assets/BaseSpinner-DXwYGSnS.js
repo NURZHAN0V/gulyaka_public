@@ -1,1 +1,0 @@
-import{T as e,d as t,t as n}from"./_plugin-vue_export-helper-C-PAySEq.js";var r={},i={class:`spin`,"aria-hidden":`true`};function a(n,r){return e(),t(`span`,i)}var o=n(r,[[`render`,a],[`__scopeId`,`data-v-77372000`]]);export{o as t};
