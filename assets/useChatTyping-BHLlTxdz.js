@@ -1,0 +1,1 @@
+import{z as e}from"./runtime-core.esm-bundler-DULGmr6u.js";var t=e({});function n(){function e(e,n){n?t[e]=!0:delete t[e]}function n(e){return!!t[e]}return{typingByThread:t,setTyping:e,isTyping:n}}export{n as t};
