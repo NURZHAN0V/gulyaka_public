@@ -1,1 +1,0 @@
-import{B as e}from"./runtime-core.esm-bundler-DULGmr6u.js";import{t}from"./http-TF1zw-Ms.js";var n=e(null),r=null;function i(){let e=n;async function i(){e.value||(r||=t.get(`/api/v1/pets/dictionaries`).then(t=>{e.value=t,r=null}),await r)}i();function a(t){return e.value?.breeds.find(e=>e.id===t)?.name??t}return{dict:e,load:i,breedName:a}}export{i as t};
