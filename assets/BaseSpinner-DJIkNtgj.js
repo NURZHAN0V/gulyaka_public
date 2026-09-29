@@ -1,1 +1,0 @@
-import{T as e,u as t}from"./runtime-core.esm-bundler-DULGmr6u.js";import{Tt as n}from"./index-CtJ7iJbT.js";var r={},i={class:`spin`,"aria-hidden":`true`};function a(n,r){return e(),t(`span`,i)}var o=n(r,[[`render`,a],[`__scopeId`,`data-v-77372000`]]);export{o as t};
